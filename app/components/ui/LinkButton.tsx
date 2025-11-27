@@ -15,7 +15,7 @@ export default function LinkButton({
   return (
     <Link
       href={href}
-      className={`px-[calc(var(--spacing-lg)*1.05)] py-[calc(var(--spacing-md)*1.05)] text-lg rounded-xl border border-[--accent] text-[--accent] bg-[--background] shadow-lg hover:bg-[--accent] hover:text-[--accent-foreground] hover:scale-105 transition-all duration-200 font-bold tracking-wide ${className}`}
+      className={`px-4 py-2 text-lg rounded-xl border font-bold shadow-lg transition-all duration-200 hover:scale-105 hover:bg-[--accent] hover:text-[--accent-foreground] border-[--accent] text-[--accent] bg-[--background] tracking-wide ${className}`}
       style={{ fontFamily: "var(--font-header)" }}
     >
       {children}
