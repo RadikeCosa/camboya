@@ -1,7 +1,9 @@
+import LinkButton from "./components/ui/LinkButton";
+
 export default function Home() {
   return (
     <div>
-      <h1>Welcome to The Jungle</h1>
+      <LinkButton href="/esas">Go ESAS Assessment Tool</LinkButton>
     </div>
   );
 }
