@@ -1,7 +1,7 @@
-export default function Main() {
+export default function Main({ children }: { children?: React.ReactNode }) {
   return (
     <main className="flex h-full w-full items-center justify-center">
-      <span>Main Content Placeholder</span>
+      {children}
     </main>
   );
 }
