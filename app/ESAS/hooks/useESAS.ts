@@ -2,7 +2,6 @@
 import { useReducer, useCallback } from "react";
 import {
   ESASSymptoms,
-  ESASAssessment,
   ESASSymptomNames,
   ESASAssessmentSchema,
 } from "../esas.types";
