@@ -1,0 +1,92 @@
+/**
+ * @fileoverview Funciones de utilidad para el módulo data-viz.
+ */
+
+import { Problem } from "./types";
+
+/**
+ * Formatea una fecha ISO a formato dd/mm/yy.
+ * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
+ * @returns Fecha formateada como dd/mm/yy
+ */
+export function formatDate(dateStr: string): string {
+  const date = new Date(dateStr);
+  const day = String(date.getDate()).padStart(2, "0");
+  const month = String(date.getMonth() + 1).padStart(2, "0");
+  const year = String(date.getFullYear()).slice(-2);
+  return `${day}/${month}/${year}`;
+}
+
+/**
+ * Obtiene el nombre del día de la semana en español.
+ * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
+ * @returns Nombre del día de la semana en español
+ */
+export function formatDayOfWeek(dateStr: string): string {
+  const date = new Date(dateStr);
+  return date.toLocaleDateString("es-ES", {
+    weekday: "long",
+  });
+}
+
+/**
+ * Normaliza un título reemplazando guiones por espacios
+ * y capitalizando la primera letra de cada palabra.
+ * @param title - Título con guiones (slug)
+ * @returns Título normalizado para mostrar al usuario
+ */
+export function normalizeTitle(title: string): string {
+  return title.replace(/-/g, " ").replace(/\b\w/g, (c) => c.toUpperCase());
+}
+
+/**
+ * Obtiene el color de Material UI correspondiente a un nivel de dificultad.
+ * @param difficulty - Nivel de dificultad (easy, medium, hard)
+ * @returns Color de Material UI para el Chip
+ */
+export function getDifficultyColor(
+  difficulty: string
+): "success" | "warning" | "error" | "default" {
+  switch (difficulty.toLowerCase()) {
+    case "easy":
+      return "success"; // Verde - problemas fáciles
+    case "medium":
+      return "warning"; // Naranja - problemas intermedios
+    case "hard":
+      return "error"; // Rojo - problemas difíciles
+    default:
+      return "default";
+  }
+}
+
+/**
+ * Obtiene el color hexadecimal correspondiente a una fuente de problemas.
+ * Cada plataforma tiene su color de marca característico.
+ * @param source - Nombre de la fuente (leetcode, freecodecamp, etc.)
+ * @returns Color hexadecimal
+ */
+export function getSourceColor(source: string): string {
+  switch (source.toLowerCase()) {
+    case "leetcode":
+      return "#FFA116"; // Naranja característico de LeetCode
+    case "freecodecamp":
+      return "#0A0A23"; // Azul oscuro de freeCodeCamp
+    default:
+      return "#666"; // Gris para otras fuentes
+  }
+}
+
+/**
+ * Agrupa los problemas por fecha de creación.
+ * @param problemList - Array de problemas a agrupar
+ * @returns Objeto con fechas como claves y arrays de problemas como valores
+ */
+export function groupByDate(problemList: Problem[]): Record<string, Problem[]> {
+  const map: Record<string, Problem[]> = {};
+  problemList.forEach((p) => {
+    const date = formatDate(p.createdAt);
+    if (!map[date]) map[date] = [];
+    map[date].push(p);
+  });
+  return map;
+}
