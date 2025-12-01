@@ -82,7 +82,7 @@ export default function Home() {
             </span>
             <span
               className="px-3 py-1 text-xs font-medium rounded-full"
-              style={{ background: "#e0e7ff", color: "#3730a3" }}
+              style={{ background: "var(--info-light)", color: "var(--info)" }}
             >
               Médico
             </span>
@@ -145,7 +145,7 @@ export default function Home() {
           <div className="flex flex-wrap gap-2 mb-4">
             <span
               className="px-3 py-1 text-xs font-medium rounded-full"
-              style={{ background: "#e0e7ff", color: "#3730a3" }}
+              style={{ background: "var(--info-light)", color: "var(--info)" }}
             >
               Timeline
             </span>
