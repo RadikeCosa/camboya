@@ -345,7 +345,20 @@ export default function ExerciseTimeline() {
               />
             </TimelineOppositeContent>
 
-            <TimelineSeparator>
+            <TimelineSeparator sx={{ position: "relative" }}>
+              {idx === 0 && (
+                <Box
+                  sx={{
+                    position: "absolute",
+                    top: 0,
+                    left: "50%",
+                    transform: "translateX(-50%)",
+                    width: 2,
+                    height: 12,
+                    bgcolor: "primary.light",
+                  }}
+                />
+              )}
               <TimelineDot
                 color={grouped[date].length >= 3 ? "secondary" : "primary"}
                 sx={{
