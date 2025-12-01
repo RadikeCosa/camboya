@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { footerLinks } from "../config/navigation";
+import { footerSections } from "../config/navigation";
 
 export default function Footer() {
   return (
@@ -19,14 +19,14 @@ export default function Footer() {
         </span>
       </div>
       <nav className="flex items-center gap-4">
-        {footerLinks.map((item) => (
+        {footerSections.map((section) => (
           <Link
-            key={item.href}
-            href={item.href}
+            key={section.href}
+            href={section.href}
             className="text-sm transition-colors hover:underline"
             style={{ color: "var(--foreground-muted)" }}
           >
-            {item.shortLabel || item.label}
+            {section.nav.shortLabel || section.nav.label}
           </Link>
         ))}
       </nav>

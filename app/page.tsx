@@ -1,6 +1,6 @@
 import Link from "next/link";
 import ToolCard from "./components/ToolCard";
-import { toolCards, quickLinks } from "./config/navigation";
+import { cardSections, quickLinkSections } from "./config/navigation";
 
 export default function Home() {
   return (
@@ -28,8 +28,19 @@ export default function Home() {
 
       {/* Tools Grid */}
       <section className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
-        {toolCards.map((tool) => (
-          <ToolCard key={tool.href} tool={tool} />
+        {cardSections.map((section) => (
+          <ToolCard
+            key={section.href}
+            tool={{
+              href: section.href,
+              label: section.card!.title,
+              Icon: section.Icon,
+              description: section.card!.description,
+              tags: section.card!.tags,
+              gradient: section.card!.gradient,
+              linkText: section.card!.linkText,
+            }}
+          />
         ))}
       </section>
 
@@ -48,23 +59,23 @@ export default function Home() {
             </p>
           </div>
           <div className="flex flex-wrap gap-3">
-            {quickLinks.map((link) =>
-              link.variant === "primary" ? (
+            {quickLinkSections.map((section) =>
+              section.quickLink!.variant === "primary" ? (
                 <Link
-                  key={link.href}
-                  href={link.href}
+                  key={section.href}
+                  href={section.href}
                   className="px-5 py-2.5 rounded-lg bg-white font-semibold transition-transform hover:scale-105"
                   style={{ color: "var(--accent)" }}
                 >
-                  {link.label}
+                  {section.quickLink!.label}
                 </Link>
               ) : (
                 <Link
-                  key={link.href}
-                  href={link.href}
+                  key={section.href}
+                  href={section.href}
                   className="px-5 py-2.5 rounded-lg bg-white/20 text-white font-semibold border border-white/30 transition-transform hover:scale-105"
                 >
-                  {link.label}
+                  {section.quickLink!.label}
                 </Link>
               )
             )}

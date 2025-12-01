@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useMobileMenu } from "../hooks/useMobileMenu";
 import NavLink from "./NavLink";
-import { mainNavItems, toolNavItems } from "../config/navigation";
+import { mainSections, toolSections } from "../config/navigation";
 
 export default function MobileMenu() {
   const { open, setOpen, panelRef, handleOverlayClick } = useMobileMenu();
@@ -103,8 +103,16 @@ export default function MobileMenu() {
                 Navegación
               </p>
 
-              {mainNavItems.map((item) => (
-                <NavLink key={item.href} item={item} onClick={handleClose} />
+              {mainSections.map((section) => (
+                <NavLink
+                  key={section.href}
+                  item={{
+                    href: section.href,
+                    label: section.nav.label,
+                    Icon: section.Icon,
+                  }}
+                  onClick={handleClose}
+                />
               ))}
 
               <p
@@ -114,8 +122,16 @@ export default function MobileMenu() {
                 Herramientas
               </p>
 
-              {toolNavItems.map((item) => (
-                <NavLink key={item.href} item={item} onClick={handleClose} />
+              {toolSections.map((section) => (
+                <NavLink
+                  key={section.href}
+                  item={{
+                    href: section.href,
+                    label: section.nav.label,
+                    Icon: section.Icon,
+                  }}
+                  onClick={handleClose}
+                />
               ))}
             </nav>
 

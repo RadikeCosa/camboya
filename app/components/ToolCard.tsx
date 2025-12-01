@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { ToolItem, icons } from "../config/navigation";
+import { ToolItem } from "../config/navigation";
+import { ArrowIcon } from "../icons";
 
 interface ToolCardProps {
   tool: ToolItem;
@@ -11,6 +12,8 @@ export default function ToolCard({ tool }: ToolCardProps) {
       ? "var(--gradient-primary)"
       : "var(--gradient-accent)";
 
+  const IconComponent = tool.Icon;
+
   return (
     <Link
       href={tool.href}
@@ -21,19 +24,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         className="w-14 h-14 rounded-xl flex items-center justify-center mb-4"
         style={{ background: gradientVar }}
       >
-        <svg
-          className="w-7 h-7 text-white"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d={tool.icon}
-          />
-        </svg>
+        <IconComponent className="w-7 h-7 text-white" />
       </div>
       <h2
         className="text-xl font-bold mb-2"
@@ -77,19 +68,7 @@ export default function ToolCard({ tool }: ToolCardProps) {
         style={{ color: "var(--accent)" }}
       >
         {tool.linkText}
-        <svg
-          className="w-4 h-4"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d={icons.arrow}
-          />
-        </svg>
+        <ArrowIcon className="w-4 h-4" />
       </span>
     </Link>
   );

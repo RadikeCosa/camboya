@@ -1,11 +1,6 @@
 import Link from "next/link";
 import NavLink from "./NavLink";
-import { mainNavItems, toolNavItems } from "../config/navigation";
-
-// For header, we only show main nav items and main tool items (not ESAS/results)
-const headerToolItems = toolNavItems.filter(
-  (item) => item.href === "/ESAS" || item.href === "/data-viz"
-);
+import { headerSections } from "../config/navigation";
 
 export default function Header() {
   return (
@@ -34,18 +29,14 @@ export default function Header() {
 
       {/* Navigation */}
       <nav className="flex items-center gap-1">
-        {mainNavItems.map((item) => (
+        {headerSections.map((section) => (
           <NavLink
-            key={item.href}
-            item={item}
-            className="nav-link text-sm"
-            iconSize="sm"
-          />
-        ))}
-        {headerToolItems.map((item) => (
-          <NavLink
-            key={item.href}
-            item={{ ...item, label: item.shortLabel || item.label }}
+            key={section.href}
+            item={{
+              href: section.href,
+              label: section.nav.shortLabel || section.nav.label,
+              Icon: section.Icon,
+            }}
             className="nav-link text-sm"
             iconSize="sm"
           />

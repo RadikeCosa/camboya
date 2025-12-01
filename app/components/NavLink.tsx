@@ -17,24 +17,11 @@ export default function NavLink({
   onClick,
 }: NavLinkProps) {
   const iconSizeClass = iconSize === "sm" ? "w-4 h-4" : "w-5 h-5";
+  const IconComponent = item.Icon;
 
   return (
     <Link href={item.href} className={className} onClick={onClick}>
-      {showIcon && (
-        <svg
-          className={iconSizeClass}
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d={item.icon}
-          />
-        </svg>
-      )}
+      {showIcon && <IconComponent className={iconSizeClass} />}
       {item.label}
     </Link>
   );
