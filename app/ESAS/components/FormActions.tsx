@@ -1,7 +1,6 @@
 import React from "react";
 
 interface FormActionsProps {
-  onSave: () => void;
   onReset?: () => void;
   saving: boolean;
   showReset?: boolean;

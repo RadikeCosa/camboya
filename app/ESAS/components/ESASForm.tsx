@@ -280,7 +280,6 @@ export default function ESASForm() {
         />
 
         <FormActions
-          onSave={() => saveAssessment(patient, professional, dateTime)}
           onReset={reset}
           saving={saving}
           showReset={success}
