@@ -1,3 +1,5 @@
+"use client";
+
 import * as React from "react";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
@@ -150,7 +152,7 @@ function ProblemCard({ problem }: { problem: Problem }) {
             }}
           />
           <Typography variant="caption" color="text.secondary">
-            {problem.series} • {problem.category}
+            {problem.category}
           </Typography>
         </Stack>
 
@@ -337,7 +339,9 @@ export default function ExerciseTimeline() {
                 {formatDayOfWeek(grouped[date][0].createdAt)}
               </Typography>
               <Chip
-                label={`${grouped[date].length} ${grouped[date].length === 1 ? "ejercicio" : "ejercicios"}`}
+                label={`${grouped[date].length} ${
+                  grouped[date].length === 1 ? "ejercicio" : "ejercicios"
+                }`}
                 size="small"
                 color="primary"
                 variant="outlined"
@@ -345,19 +349,9 @@ export default function ExerciseTimeline() {
               />
             </TimelineOppositeContent>
 
-            <TimelineSeparator sx={{ position: "relative" }}>
-              {idx === 0 && (
-                <Box
-                  sx={{
-                    position: "absolute",
-                    top: 0,
-                    left: "50%",
-                    transform: "translateX(-50%)",
-                    width: 2,
-                    height: 12,
-                    bgcolor: "primary.light",
-                  }}
-                />
+            <TimelineSeparator>
+              {idx > 0 && (
+                <TimelineConnector sx={{ bgcolor: "primary.light" }} />
               )}
               <TimelineDot
                 color={grouped[date].length >= 3 ? "secondary" : "primary"}
@@ -366,9 +360,7 @@ export default function ExerciseTimeline() {
                   height: grouped[date].length >= 3 ? 16 : 12,
                 }}
               />
-              {idx < dates.length - 1 && (
-                <TimelineConnector sx={{ bgcolor: "primary.light" }} />
-              )}
+              <TimelineConnector sx={{ bgcolor: "primary.light" }} />
             </TimelineSeparator>
 
             <TimelineContent sx={{ py: 2, px: 2 }}>
