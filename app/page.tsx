@@ -16,14 +16,13 @@ export default function Home() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          Bienvenido a My App
+          Bienvenido a mi SandBox
         </h1>
         <p
           className="text-lg max-w-2xl mx-auto"
           style={{ color: "var(--foreground-muted)" }}
         >
-          Una plataforma integral para evaluaciones médicas ESAS y visualización
-          de datos de programación. Selecciona una herramienta para comenzar.
+          Un SandBox para Ver mis Proyectos de Desarrollo.
         </p>
       </section>
 

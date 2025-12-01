@@ -7,6 +7,10 @@ import { useESASResults } from "../hooks/useESASResults";
 
 export default function ESASResultsPage() {
   const { assessments, deleteAll, deleteOne } = useESASResults();
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   return (
     <div className="max-w-4xl mx-auto p-4 md:p-8">
@@ -17,8 +21,18 @@ export default function ESASResultsPage() {
           className="flex items-center gap-1 transition-colors"
           style={{ color: "var(--foreground-muted)" }}
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+            />
           </svg>
           Inicio
         </Link>
@@ -31,7 +45,10 @@ export default function ESASResultsPage() {
           ESAS
         </Link>
         <span style={{ color: "var(--foreground-muted)" }}>/</span>
-        <span style={{ color: "var(--foreground-strong)" }} className="font-medium">
+        <span
+          style={{ color: "var(--foreground-strong)" }}
+          className="font-medium"
+        >
           Resultados
         </span>
       </nav>
@@ -39,11 +56,25 @@ export default function ESASResultsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-8">
         <div>
-          <h1 className="text-2xl font-bold" style={{ color: "var(--foreground-strong)" }}>
+          <h1
+            className="text-2xl font-bold"
+            style={{ color: "var(--foreground-strong)" }}
+          >
             Registros ESAS
           </h1>
-          <p className="text-sm mt-1" style={{ color: "var(--foreground-muted)" }}>
-            {assessments.length} evaluación{assessments.length !== 1 ? "es" : ""} guardada{assessments.length !== 1 ? "s" : ""}
+          <p
+            className="text-sm mt-1"
+            style={{ color: "var(--foreground-muted)" }}
+          >
+            {mounted ? (
+              <>
+                {assessments.length} evaluación
+                {assessments.length !== 1 ? "es" : ""} guardada
+                {assessments.length !== 1 ? "s" : ""}
+              </>
+            ) : (
+              "Cargando..."
+            )}
           </p>
         </div>
         <Link
@@ -51,8 +82,18 @@ export default function ESASResultsPage() {
           className="inline-flex items-center justify-center gap-2 px-4 py-2.5 text-sm font-medium text-white rounded-lg transition-all hover:opacity-90 hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500/50"
           style={{ background: "var(--gradient-accent)" }}
         >
-          <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+          <svg
+            className="w-4 h-4"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M12 4v16m8-8H4"
+            />
           </svg>
           Nueva evaluación
         </Link>
@@ -80,10 +121,16 @@ export default function ESASResultsPage() {
               d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
             />
           </svg>
-          <p className="text-lg font-medium" style={{ color: "var(--foreground)" }}>
+          <p
+            className="text-lg font-medium"
+            style={{ color: "var(--foreground)" }}
+          >
             No hay evaluaciones guardadas
           </p>
-          <p className="mt-2 text-sm" style={{ color: "var(--foreground-muted)" }}>
+          <p
+            className="mt-2 text-sm"
+            style={{ color: "var(--foreground-muted)" }}
+          >
             Completa el formulario ESAS para comenzar a registrar evaluaciones.
           </p>
           <Link
@@ -95,8 +142,18 @@ export default function ESASResultsPage() {
               border: "1px solid var(--border-color)",
             }}
           >
-            <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4v16m8-8H4" />
+            <svg
+              className="w-4 h-4"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M12 4v16m8-8H4"
+              />
             </svg>
             Crear primera evaluación
           </Link>
@@ -117,8 +174,18 @@ export default function ESASResultsPage() {
                 background: "var(--error-light)",
               }}
             >
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+              <svg
+                className="w-4 h-4"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+                />
               </svg>
               Borrar todos los registros
             </button>

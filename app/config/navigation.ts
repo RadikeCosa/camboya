@@ -59,7 +59,7 @@ export const toolNavItems: NavItem[] = [
   {
     href: "/data-viz",
     label: "Data Visualization",
-    shortLabel: "Data Viz",
+    shortLabel: "Conding Data",
     icon: icons.barChart,
   },
 ];
@@ -83,18 +83,17 @@ export const toolCards: ToolItem[] = [
   },
   {
     href: "/data-viz",
-    label: "Data Visualization",
-    shortLabel: "Data Viz",
+    label: "Coding Data Tool",
+    shortLabel: "Coding Data Tool",
     icon: icons.barChart,
-    description:
-      "Visualiza tu progreso en ejercicios de programación con una línea de tiempo interactiva y estadísticas detalladas.",
+    description: "Visualizacion de Coding Challenges Data",
     tags: [
       { label: "Timeline", colorType: "info" },
       { label: "Estadísticas", colorType: "success" },
       { label: "Progreso", colorType: "warning" },
     ],
     gradient: "accent",
-    linkText: "Ir a Data Viz",
+    linkText: "Ir a Coding Data",
   },
 ];
 
