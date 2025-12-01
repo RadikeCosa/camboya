@@ -6,16 +6,16 @@ import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import problems from "../data/problems.data.json";
+import problemsData from "../data/problems.data.json";
 import {
   Box,
   Typography,
-  Paper,
   Chip,
   Stack,
   Card,
   CardContent,
   Divider,
+  Paper,
 } from "@mui/material";
 
 // Types
@@ -36,6 +36,9 @@ interface Problem {
   title: string;
 }
 
+// Type the imported JSON data
+const problems: Problem[] = problemsData as Problem[];
+
 // Helper functions
 function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
@@ -45,13 +48,10 @@ function formatDate(dateStr: string): string {
   return `${day}/${month}/${year}`;
 }
 
-function formatDateLong(dateStr: string): string {
+function formatDayOfWeek(dateStr: string): string {
   const date = new Date(dateStr);
   return date.toLocaleDateString("es-ES", {
     weekday: "long",
-    year: "numeric",
-    month: "long",
-    day: "numeric",
   });
 }
 
@@ -192,7 +192,7 @@ function ProblemCard({ problem }: { problem: Problem }) {
 
 export default function ExerciseTimeline() {
   // Sort by date ascending
-  const sortedProblems = [...(problems as Problem[])].sort(
+  const sortedProblems = [...problems].sort(
     (a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
   );
   const grouped = groupByDate(sortedProblems);
@@ -334,7 +334,7 @@ export default function ExerciseTimeline() {
                 {date}
               </Typography>
               <Typography variant="caption" color="text.secondary">
-                {formatDateLong(grouped[date][0].createdAt).split(",")[0]}
+                {formatDayOfWeek(grouped[date][0].createdAt)}
               </Typography>
               <Chip
                 label={`${grouped[date].length} ${grouped[date].length === 1 ? "ejercicio" : "ejercicios"}`}
