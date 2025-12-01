@@ -1,6 +1,4 @@
-interface IconProps {
-  className?: string;
-}
+import { IconProps } from "./types";
 
 export default function ArrowIcon({ className = "w-5 h-5" }: IconProps) {
   return (
