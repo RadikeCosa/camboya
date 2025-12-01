@@ -191,9 +191,9 @@ function ProblemCard({ problem }: { problem: Problem }) {
 }
 
 export default function ExerciseTimeline() {
-  // Sort by date ascending
+  // Sort by date descending (newest first)
   const sortedProblems = [...problems].sort(
-    (a, b) => new Date(a.createdAt).getTime() - new Date(b.createdAt).getTime()
+    (a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime()
   );
   const grouped = groupByDate(sortedProblems);
   const dates = Object.keys(grouped);
