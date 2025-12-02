@@ -18,15 +18,29 @@ export function formatDate(dateStr: string): string {
 }
 
 /**
+ * Mapping array for Spanish day-of-week names.
+ * Index corresponds to Date.getDay() (0 = Sunday, 6 = Saturday).
+ */
+const SPANISH_DAYS_OF_WEEK = [
+  "domingo",
+  "lunes",
+  "martes",
+  "miércoles",
+  "jueves",
+  "viernes",
+  "sábado",
+];
+
+/**
  * Obtiene el nombre del día de la semana en español.
+ * This function uses a deterministic mapping array instead of toLocaleDateString
+ * to ensure consistent output between server and client (hydration safety).
  * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
  * @returns Nombre del día de la semana en español
  */
 export function formatDayOfWeek(dateStr: string): string {
   const date = new Date(dateStr);
-  return date.toLocaleDateString("es-ES", {
-    weekday: "long",
-  });
+  return SPANISH_DAYS_OF_WEEK[date.getDay()];
 }
 
 /**
