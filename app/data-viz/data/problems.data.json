@@ -45,7 +45,8 @@
     "topics": ["Array", "Math", "String"],
     "createdAt": "2025-11-16",
     "hasFrontmatter": true,
-    "title": "Binary Prefix Divisible By Five"
+    "title": "Binary Prefix Divisible By Five",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/binary-prefix-divisibility-by-five/"
   },
   {
     "name": "calculate-money-in-leetcode-bank",
@@ -75,9 +76,10 @@
     "category": "daily",
     "difficulty": "medium",
     "topics": ["Two Pointers", "String"],
-    "createdAt": "2025-09-23",
+    "createdAt": "2025-11-28",
     "hasFrontmatter": true,
-    "title": "Compare Version Numbers"
+    "title": "Compare Version Numbers",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/compare-version-number-leetcode/"
   },
   {
     "name": "container-with-most-water",
@@ -141,7 +143,8 @@
     "topics": ["Simulation", "Math"],
     "createdAt": "2025-11-09",
     "hasFrontmatter": true,
-    "title": "Count Operations to Obtain Zero"
+    "title": "Count Operations to Obtain Zero",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-operations-to-obtain-zero-leetcode/"
   },
   {
     "name": "final-value-of-variable-after-performing-operations",
@@ -413,7 +416,8 @@
     "topics": ["Array", "Subarray", "Kadane", "Prefix Sum", "Math"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
-    "title": "maximun-subarray-sum-with-length-divisible-by-k"
+    "title": "maximun-subarray-sum-with-length-divisible-by-k",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/maximum-subarray-sum-with-length-divisible-by-k/"
   },
   {
     "name": "merge-two-sorted-lists",
@@ -523,9 +527,10 @@
     "category": "daily",
     "difficulty": "easy",
     "topics": ["Bit Manipulation", "Math"],
-    "createdAt": "2025-08-10",
+    "createdAt": "2025-11-04",
     "hasFrontmatter": true,
-    "title": "power-of-two"
+    "title": "power-of-two",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/power-of-two-leetcode/"
   },
   {
     "name": "remove-duplicates-from-sorted-array",
@@ -539,7 +544,7 @@
     "category": "daily",
     "difficulty": "easy",
     "topics": ["Array", "Two Pointers", "In-place"],
-    "createdAt": "2025-08-19",
+    "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "remove-duplicates-from-sorted-array"
   },
@@ -568,12 +573,13 @@
     "hasPostSolution": true,
     "source": "leetcode",
     "series": "daily",
-    "category": "daily",
+    "category": "leetcode",
     "difficulty": "easy",
     "topics": ["Bit Manipulation", "Math", "Powers of Two"],
-    "createdAt": "2025-10-30",
+    "createdAt": "2025-11-07T00:00:00.000Z",
     "hasFrontmatter": true,
-    "title": "smallest-number-with-all-set-bits"
+    "title": "smallest-number-with-all-set-bits",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/smallest-number-all-set-bits/"
   },
   {
     "name": "successful-pairs-of-spells-and-potions",
@@ -685,7 +691,8 @@
     "topics": ["Array", "Greedy", "One Pass"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
-    "title": "best-time-to-buy-and-sell-stock"
+    "title": "best-time-to-buy-and-sell-stock",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/best-time-to-buy-and-sell-stock/"
   },
   {
     "name": "best-time-to-sell-and-buy-stocks-ii",
@@ -701,7 +708,8 @@
     "topics": ["Array", "Greedy", "Multiple Transactions"],
     "createdAt": "2025-11-26",
     "hasFrontmatter": true,
-    "title": "best-time-to-sell-and-buy-stocks-ii"
+    "title": "best-time-to-sell-and-buy-stocks-ii",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/best-time-to-buy-and-sell-stock-ii/"
   },
   {
     "name": "jump-game",
@@ -717,7 +725,8 @@
     "topics": ["Array", "Greedy", "Reachability"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
-    "title": "jump-game"
+    "title": "jump-game",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/jump-game-explanation/"
   },
   {
     "name": "majority-element",
@@ -733,7 +742,8 @@
     "topics": ["Array", "Hash Map", "Boyer-Moore"],
     "createdAt": "2025-11-18",
     "hasFrontmatter": true,
-    "title": "majority-element"
+    "title": "majority-element",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/majority-element/"
   },
   {
     "name": "merge-sorted-array",
@@ -747,9 +757,10 @@
     "category": "top-interview-array-string",
     "difficulty": "easy",
     "topics": ["Array", "Two Pointers", "Sorting"],
-    "createdAt": "2025-09-02",
+    "createdAt": "2025-11-11",
     "hasFrontmatter": true,
-    "title": "merge-sorted-array"
+    "title": "merge-sorted-array",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/merge-sorted-arrays/"
   },
   {
     "name": "remove-duplicates-from-sorted-array",
@@ -763,9 +774,10 @@
     "category": "top-interview-array-string",
     "difficulty": "easy",
     "topics": ["Array", "Two Pointers", "In-place"],
-    "createdAt": "2025-09-03",
+    "createdAt": "2025-11-17",
     "hasFrontmatter": true,
-    "title": "remove-duplicates-from-sorted-array"
+    "title": "remove-duplicates-from-sorted-array",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/remove-duplicates-from-sorted-array/"
   },
   {
     "name": "remove-duplicates-from-sorted-array-ii",
@@ -779,9 +791,10 @@
     "category": "top-interview-array-string",
     "difficulty": "medium",
     "topics": ["Array", "Two Pointers", "In-place"],
-    "createdAt": "2025-09-16",
+    "createdAt": "2025-11-19",
     "hasFrontmatter": true,
-    "title": "remove-duplicates-from-sorted-array-ii"
+    "title": "remove-duplicates-from-sorted-array-ii",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/remove-duplicates-from-sorted-array-ii/"
   },
   {
     "name": "remove-element",
@@ -795,9 +808,10 @@
     "category": "top-interview-array-string",
     "difficulty": "easy",
     "topics": ["Array", "Two Pointers", "In-place"],
-    "createdAt": "2025-09-02",
+    "createdAt": "2025-11-15",
     "hasFrontmatter": true,
-    "title": "remove-element"
+    "title": "remove-element",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/remove-element/"
   },
   {
     "name": "rotate-array",
@@ -813,7 +827,8 @@
     "topics": ["Array", "Rotation", "In-place", "Reverse"],
     "createdAt": "2025-11-19",
     "hasFrontmatter": true,
-    "title": "rotate-array"
+    "title": "rotate-array",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/shift-array-leetcode/"
   },
   {
     "name": "isomorphic-strings",
@@ -1389,7 +1404,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
-    "title": "Camel Case"
+    "title": "Camel Case",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/camel-case/"
   },
   {
     "name": "character-battle",
@@ -1524,7 +1540,8 @@
     "topics": ["String", "Stack"],
     "createdAt": "2025-11-29",
     "hasFrontmatter": true,
-    "title": "Reverse Parenthesis"
+    "title": "Reverse Parenthesis",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/reverse-parenthesis/"
   },
   {
     "name": "space-jam",
@@ -1623,7 +1640,7 @@
     "hasPostSolution": false,
     "source": "freecodecamp",
     "series": "daily",
-    "category": "TODO",
+    "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["string manipulation"],
     "createdAt": "2025-12-02T00:00:00.000Z",
@@ -1645,7 +1662,8 @@
     "topics": ["Math", "Conversion"],
     "createdAt": "2025-12-01",
     "hasFrontmatter": true,
-    "title": "Miles To Kilometers"
+    "title": "Miles To Kilometers",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/miles-to-kilometers/"
   },
   {
     "name": "100-characters",
@@ -1658,10 +1676,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["strings", "basic math"],
     "createdAt": "2025-11-21",
     "hasFrontmatter": true,
-    "title": "100-characters"
+    "title": "100-characters",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/100-characters/"
   },
   {
     "name": "ai-detector",
@@ -1677,7 +1696,8 @@
     "topics": ["string manipulation", "algorithms", "regular expressions"],
     "createdAt": "2025-11-30",
     "hasFrontmatter": true,
-    "title": "Ai Detector"
+    "title": "Ai Detector",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/ai-detector/"
   },
   {
     "name": "ball-trajectory",
@@ -1693,7 +1713,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-29",
     "hasFrontmatter": true,
-    "title": "ball-trajectory"
+    "title": "ball-trajectory",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/ball-trajectory/"
   },
   {
     "name": "character-count",
@@ -1716,7 +1737,8 @@
     ],
     "createdAt": "2025-11-22",
     "hasFrontmatter": true,
-    "title": "Character Count"
+    "title": "Character Count",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/character-count/"
   },
   {
     "name": "character-limit",
@@ -1727,12 +1749,13 @@
     "hasPostSolution": false,
     "source": "freecodecamp",
     "series": "daily",
-    "category": "daily",
+    "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["String"],
     "createdAt": "2025-11-08",
     "hasFrontmatter": true,
-    "title": "Character Limit"
+    "title": "Character Limit",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/charlimit-freecodecamp/"
   },
   {
     "name": "count-rectangles",
@@ -1748,7 +1771,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
-    "title": "count-rectangles"
+    "title": "count-rectangles",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-rectangles/"
   },
   {
     "name": "counting-cards",
@@ -1764,7 +1788,8 @@
     "topics": ["Math", "Set", "Conversion"],
     "createdAt": "2025-11-07",
     "hasFrontmatter": true,
-    "title": "Counting Cards"
+    "title": "Counting Cards",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/counting-cards-freecodecamp/"
   },
   {
     "name": "days-until-weekend",
@@ -1780,7 +1805,8 @@
     "topics": ["String", "Math", "Hash Table", "Validation"],
     "createdAt": "2025-11-15",
     "hasFrontmatter": true,
-    "title": "Days Until Weekend"
+    "title": "Days Until Weekend",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/days-until-weekend/"
   },
   {
     "name": "email-signature-generator",
@@ -1796,7 +1822,8 @@
     "topics": ["String", "Validation"],
     "createdAt": "2025-11-12",
     "hasFrontmatter": true,
-    "title": "Email Signature Generator"
+    "title": "Email Signature Generator",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/generate-signature/"
   },
   {
     "name": "extension-extractor",
@@ -1812,7 +1839,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-10",
     "hasFrontmatter": true,
-    "title": "extension-extractor"
+    "title": "extension-extractor",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/get-extension/"
   },
   {
     "name": "fizz-buzz",
@@ -1828,7 +1856,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-23",
     "hasFrontmatter": true,
-    "title": "fizz-buzz"
+    "title": "fizz-buzz",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/fizz-buzz/"
   },
   {
     "name": "gcd",
@@ -1844,7 +1873,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-15",
     "hasFrontmatter": true,
-    "title": "gcd"
+    "title": "gcd",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/gcd/"
   },
   {
     "name": "image-search",
@@ -1860,7 +1890,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-04",
     "hasFrontmatter": true,
-    "title": "image-search"
+    "title": "image-search",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/image-search-freecodecamp/"
   },
   {
     "name": "infected",
@@ -1889,10 +1920,11 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["Algorithm", "Simulation", "Math"],
     "createdAt": "2025-11-26",
     "hasFrontmatter": true,
-    "title": "is-fizz-buzz"
+    "title": "is-fizz-buzz",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/is-fiz-buzz/"
   },
   {
     "name": "is-match",
@@ -1905,10 +1937,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["Strings", "Comparison"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
-    "title": "is-match"
+    "title": "is-match",
+    "blogPost": "https://blog-astro-rouge.vercel.app/posts/fingerprint-test/"
   },
   {
     "name": "least-common-multiple",
@@ -1921,10 +1954,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
-    "createdAt": "2025-11-24",
+    "topics": ["Math", "Euclidean Algorithm"],
+    "createdAt": "2025-11-22",
     "hasFrontmatter": true,
-    "title": "least-common-multiple"
+    "title": "least-common-multiple",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/least-common-multiple/"
   },
   {
     "name": "longest-word",
@@ -1937,10 +1971,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "topics": ["strings", "regex"],
+    "createdAt": "2025-11-20",
     "hasFrontmatter": true,
-    "title": "longest-word"
+    "title": "longest-word",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/longest-word/"
   },
   {
     "name": "markdown-heading-converter",
@@ -1953,10 +1988,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["regex", "strings", "parsing"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
-    "title": "markdown-heading-converter"
+    "title": "markdown-heading-converter",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/markdown-heading-converter/"
   },
   {
     "name": "matrix-builder",
@@ -1972,7 +2008,8 @@
     "topics": ["matrix", "Matrix"],
     "createdAt": "2025-11-05",
     "hasFrontmatter": true,
-    "title": "matrix-builder"
+    "title": "matrix-builder",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/matrix-builder/"
   },
   {
     "name": "message-validator",
@@ -1986,9 +2023,10 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-18",
+    "createdAt": "2025-11-24",
     "hasFrontmatter": true,
-    "title": "message-validator"
+    "title": "message-validator",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/message-validator/"
   },
   {
     "name": "recipe-scale",
@@ -2002,9 +2040,10 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-20",
+    "createdAt": "2025-11-22",
     "hasFrontmatter": true,
-    "title": "recipe-scale"
+    "title": "recipe-scale",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/recipe-scale/"
   },
   {
     "name": "shift-array",
@@ -2020,7 +2059,8 @@
     "topics": ["array"],
     "createdAt": "2025-11-13",
     "hasFrontmatter": true,
-    "title": "shift-array"
+    "title": "shift-array",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/shift-array/"
   },
   {
     "name": "signature-validation",
@@ -2052,7 +2092,8 @@
     "topics": ["Algorithm"],
     "createdAt": "2025-11-12",
     "hasFrontmatter": true,
-    "title": "vowels-and-consonants"
+    "title": "vowels-and-consonants",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/vowels-and-consonants/"
   },
   {
     "name": "weekday-finder",
@@ -2063,12 +2104,13 @@
     "hasPostSolution": false,
     "source": "freecodecamp",
     "series": "daily",
-    "category": "daily",
+    "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["Date Computation", "String Manipulation"],
     "createdAt": "2025-11-06",
     "hasFrontmatter": true,
-    "title": "weekday-finder"
+    "title": "weekday-finder",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/weekday-finder/"
   },
   {
     "name": "whats-my-age-again",
@@ -2081,10 +2123,11 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": ["Algorithm"],
+    "topics": ["date", "math"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
-    "title": "whats-my-age-again"
+    "title": "whats-my-age-again",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/whats-my-age-again/"
   },
   {
     "name": "word-guesser",
@@ -2111,12 +2154,13 @@
     "hasPostSolution": false,
     "source": "freecodecamp",
     "series": "daily",
-    "category": "daily",
+    "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Array", "Matrix"],
     "createdAt": "2025-11-10",
     "hasFrontmatter": true,
-    "title": "word-search"
+    "title": "word-search",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/word-search-freecodecamp/"
   },
   {
     "name": "24-to-12",
