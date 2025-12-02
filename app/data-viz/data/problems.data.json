@@ -13,8 +13,7 @@
     "topics": ["Linked List", "Math", "Recursion"],
     "createdAt": "2025-09-24",
     "hasFrontmatter": true,
-    "title": "add-two-numbers",
-    "blogLink": "https://example.com/blog/add-two-numbers"
+    "title": "add-two-numbers"
   },
   {
     "name": "adjacent-increasing-subarrays-detection-i",
@@ -44,7 +43,7 @@
     "category": "daily",
     "difficulty": "easy",
     "topics": ["Array", "Math", "String"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-16",
     "hasFrontmatter": true,
     "title": "Binary Prefix Divisible By Five"
   },
@@ -684,7 +683,7 @@
     "category": "top-interview-array-string",
     "difficulty": "easy",
     "topics": ["Array", "Greedy", "One Pass"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "best-time-to-buy-and-sell-stock"
   },
@@ -732,7 +731,7 @@
     "category": "top-interview-array-string",
     "difficulty": "easy",
     "topics": ["Array", "Hash Map", "Boyer-Moore"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-18",
     "hasFrontmatter": true,
     "title": "majority-element"
   },
@@ -812,7 +811,7 @@
     "category": "top-interview-array-string",
     "difficulty": "medium",
     "topics": ["Array", "Rotation", "In-place", "Reverse"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-19",
     "hasFrontmatter": true,
     "title": "rotate-array"
   },
@@ -1404,7 +1403,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-20",
     "hasFrontmatter": true,
     "title": "Character Battle"
   },
@@ -1616,6 +1615,23 @@
     "title": "Vowel Balance"
   },
   {
+    "name": "camel-to-snake",
+    "path": "src\\freecodecamp\\daily\\december\\camel-to-snake",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "TODO",
+    "difficulty": "easy",
+    "topics": ["string manipulation"],
+    "createdAt": "2025-12-02T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Camel to Snake",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/camel-to-snake/"
+  },
+  {
     "name": "miles-to-kilometers",
     "path": "src\\freecodecamp\\daily\\december\\miles-to-kilometers",
     "hasImplementation": true,
@@ -1643,7 +1659,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-21",
     "hasFrontmatter": true,
     "title": "100-characters"
   },
@@ -1698,7 +1714,7 @@
       "Sorting",
       "Conversion"
     ],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-22",
     "hasFrontmatter": true,
     "title": "Character Count"
   },
@@ -1810,7 +1826,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-23",
     "hasFrontmatter": true,
     "title": "fizz-buzz"
   },
@@ -1906,7 +1922,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-24",
     "hasFrontmatter": true,
     "title": "least-common-multiple"
   },
@@ -1938,7 +1954,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "markdown-heading-converter"
   },
@@ -1970,7 +1986,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-18",
     "hasFrontmatter": true,
     "title": "message-validator"
   },
@@ -1986,7 +2002,7 @@
     "category": "freecodecamp",
     "difficulty": "easy",
     "topics": ["Algorithm"],
-    "createdAt": "2025-11-25",
+    "createdAt": "2025-11-20",
     "hasFrontmatter": true,
     "title": "recipe-scale"
   },
