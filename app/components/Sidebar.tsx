@@ -1,5 +1,5 @@
 import NavLink from "./NavLink";
-import { mainNavItems, toolNavItems } from "../config/navigation";
+import { mainSections, toolSections } from "../config/navigation";
 
 export default function Sidebar() {
   return (
@@ -20,8 +20,15 @@ export default function Sidebar() {
           Navegación
         </p>
 
-        {mainNavItems.map((item) => (
-          <NavLink key={item.href} item={item} />
+        {mainSections.map((section) => (
+          <NavLink
+            key={section.href}
+            item={{
+              href: section.href,
+              label: section.nav.label,
+              Icon: section.Icon,
+            }}
+          />
         ))}
 
         <p
@@ -31,8 +38,15 @@ export default function Sidebar() {
           Herramientas
         </p>
 
-        {toolNavItems.map((item) => (
-          <NavLink key={item.href} item={item} />
+        {toolSections.map((section) => (
+          <NavLink
+            key={section.href}
+            item={{
+              href: section.href,
+              label: section.nav.label,
+              Icon: section.Icon,
+            }}
+          />
         ))}
       </nav>
 
