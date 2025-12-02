@@ -33,7 +33,7 @@ const SPANISH_DAYS_OF_WEEK = [
 
 /**
  * Obtiene el nombre del día de la semana en español.
- * Uses a deterministic mapping array instead of toLocaleDateString
+ * This function uses a deterministic mapping array instead of toLocaleDateString
  * to ensure consistent output between server and client (hydration safety).
  * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
  * @returns Nombre del día de la semana en español
