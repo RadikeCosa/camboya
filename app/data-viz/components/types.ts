@@ -35,4 +35,6 @@ export interface Problem {
   hasFrontmatter: boolean;
   /** Título legible del problema */
   title: string;
+  /** Link opcional al artículo del blog relacionado */
+  blogLink?: string;
 }
