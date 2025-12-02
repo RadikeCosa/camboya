@@ -9,7 +9,9 @@ import {
   Stack,
   Card,
   CardContent,
+  Link,
 } from "@mui/material";
+import { ArticleIcon } from "../../icons";
 import { Problem } from "./types";
 import { normalizeTitle, getDifficultyColor, getSourceColor } from "./utils";
 
@@ -119,6 +121,33 @@ export default function ProblemCard({ problem }: ProblemCardProps) {
               />
             )}
           </Stack>
+        )}
+
+        {/* Link al artículo del blog (opcional) */}
+        {problem.blogLink && (
+          <Box sx={{ mt: 1.5 }}>
+            <Link
+              href={problem.blogLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              underline="hover"
+              sx={{
+                display: "inline-flex",
+                alignItems: "center",
+                gap: 0.5,
+                fontSize: "0.8rem",
+                fontWeight: 500,
+                color: getSourceColor(problem.source),
+                transition: "all 0.2s ease-in-out",
+                "&:hover": {
+                  opacity: 0.8,
+                },
+              }}
+            >
+              <ArticleIcon className="w-4 h-4" />
+              Ver artículo del blog
+            </Link>
+          </Box>
         )}
       </CardContent>
     </Card>

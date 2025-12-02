@@ -13,7 +13,8 @@
     "topics": ["Linked List", "Math", "Recursion"],
     "createdAt": "2025-09-24",
     "hasFrontmatter": true,
-    "title": "add-two-numbers"
+    "title": "add-two-numbers",
+    "blogLink": "https://example.com/blog/add-two-numbers"
   },
   {
     "name": "adjacent-increasing-subarrays-detection-i",

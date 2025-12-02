@@ -3,6 +3,7 @@ export { default as DocumentIcon } from "./DocumentIcon";
 export { default as DocumentChartIcon } from "./DocumentChartIcon";
 export { default as BarChartIcon } from "./BarChartIcon";
 export { default as ArrowIcon } from "./ArrowIcon";
+export { default as ArticleIcon } from "./ArticleIcon";
 
 // Re-export types
 export type { IconProps, IconComponent } from "./types";
