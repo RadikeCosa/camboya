@@ -54,43 +54,6 @@ export function normalizeTitle(title: string): string {
 }
 
 /**
- * Obtiene el color de Material UI correspondiente a un nivel de dificultad.
- * @param difficulty - Nivel de dificultad (easy, medium, hard)
- * @returns Color de Material UI para el Chip
- */
-export function getDifficultyColor(
-  difficulty: string
-): "success" | "warning" | "error" | "default" {
-  switch (difficulty.toLowerCase()) {
-    case "easy":
-      return "success"; // Verde - problemas fáciles
-    case "medium":
-      return "warning"; // Naranja - problemas intermedios
-    case "hard":
-      return "error"; // Rojo - problemas difíciles
-    default:
-      return "default";
-  }
-}
-
-/**
- * Obtiene el color hexadecimal correspondiente a una fuente de problemas.
- * Cada plataforma tiene su color de marca característico.
- * @param source - Nombre de la fuente (leetcode, freecodecamp, etc.)
- * @returns Color hexadecimal
- */
-export function getSourceColor(source: string): string {
-  switch (source.toLowerCase()) {
-    case "leetcode":
-      return "#FFA116"; // Naranja característico de LeetCode
-    case "freecodecamp":
-      return "#0A0A23"; // Azul oscuro de freeCodeCamp
-    default:
-      return "#666"; // Gris para otras fuentes
-  }
-}
-
-/**
  * Agrupa los problemas por fecha de creación.
  * @param problemList - Array de problemas a agrupar
  * @returns Objeto con fechas como claves y arrays de problemas como valores
