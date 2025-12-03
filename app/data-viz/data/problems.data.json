@@ -10,11 +10,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Linked List",
-      "Math",
-      "Recursion"
-    ],
+    "topics": ["Linked List", "Math", "Recursion"],
     "createdAt": "2025-09-24",
     "hasFrontmatter": true,
     "title": "add-two-numbers"
@@ -30,11 +26,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Sliding Window",
-      "Brute Force"
-    ],
+    "topics": ["Array", "Sliding Window", "Brute Force"],
     "createdAt": "2025-10-14",
     "hasFrontmatter": true,
     "title": "adjacent-increasing-subarrays-detection-i"
@@ -50,11 +42,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "String"
-    ],
+    "topics": ["Array", "Math", "String"],
     "createdAt": "2025-11-16",
     "hasFrontmatter": true,
     "title": "Binary Prefix Divisible By Five",
@@ -71,9 +59,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-10-25",
     "hasFrontmatter": true,
     "title": "Calculate Money in LeetCode Bank"
@@ -89,10 +75,7 @@
     "series": "daily ",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Two Pointers",
-      "String"
-    ],
+    "topics": ["Two Pointers", "String"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
     "title": "Compare Version Numbers",
@@ -109,11 +92,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "Greedy"
-    ],
+    "topics": ["Array", "Two Pointers", "Greedy"],
     "createdAt": "2025-10-04",
     "hasFrontmatter": true,
     "title": "Container With Most Water"
@@ -129,9 +108,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-09-08",
     "hasFrontmatter": true,
     "title": "Convert Integer to the Sum of Two No-Zero Integers"
@@ -147,11 +124,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Hash Table",
-      "Counting"
-    ],
+    "topics": ["Array", "Hash Table", "Counting"],
     "createdAt": "2025-09-22",
     "hasFrontmatter": true,
     "title": "count-elements-with-maximum-frequency"
@@ -167,10 +140,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Simulation",
-      "Math"
-    ],
+    "topics": ["Simulation", "Math"],
     "createdAt": "2025-11-09",
     "hasFrontmatter": true,
     "title": "Count Operations to Obtain Zero",
@@ -187,12 +157,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Simulation",
-      "Increment",
-      "Decrement",
-      "State Machine"
-    ],
+    "topics": ["Simulation", "Increment", "Decrement", "State Machine"],
     "createdAt": "2025-10-20",
     "hasFrontmatter": true,
     "title": "final-value-of-variable-after-performing-operations"
@@ -208,9 +173,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-09-04",
     "hasFrontmatter": true,
     "title": "Find Closest Person"
@@ -226,11 +189,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Hash Table",
-      "String",
-      "Counting"
-    ],
+    "topics": ["Hash Table", "String", "Counting"],
     "createdAt": "2025-09-14",
     "hasFrontmatter": true,
     "title": "Find Most Frequent Vowel and Consonant"
@@ -246,10 +205,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math"
-    ],
+    "topics": ["Array", "Math"],
     "createdAt": "2025-09-07",
     "hasFrontmatter": true,
     "title": "Find N Unique Integers Sum up to Zero"
@@ -265,12 +221,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Hash Table",
-      "String",
-      "Sorting"
-    ],
+    "topics": ["Array", "Hash Table", "String", "Sorting"],
     "createdAt": "2025-10-14",
     "hasFrontmatter": true,
     "title": "Find Resultant Array After Removing Anagrams"
@@ -286,12 +237,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Math",
-      "Simulation",
-      "Combinatorics"
-    ],
+    "topics": ["Array", "Math", "Simulation", "Combinatorics"],
     "createdAt": "2025-09-30",
     "hasFrontmatter": true,
     "title": "Find Triangular Sum of an Array"
@@ -307,11 +253,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Hash Table",
-      "Math",
-      "String"
-    ],
+    "topics": ["Hash Table", "Math", "String"],
     "createdAt": "2025-09-24",
     "hasFrontmatter": true,
     "title": "Fraction to Recurring Decimal"
@@ -327,11 +269,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "greedy",
-      "simulation",
-      "arrays"
-    ],
+    "topics": ["greedy", "simulation", "arrays"],
     "createdAt": "2025-08-06",
     "hasFrontmatter": true,
     "title": "Fruits Into Baskets II"
@@ -347,12 +285,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Binary Search",
-      "Segment Tree",
-      "Ordered Set"
-    ],
+    "topics": ["Array", "Binary Search", "Segment Tree", "Ordered Set"],
     "createdAt": "2025-08-10",
     "hasFrontmatter": true,
     "title": "Fruits Into Baskets III"
@@ -368,11 +301,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Sliding Window",
-      "String",
-      "Counting"
-    ],
+    "topics": ["Sliding Window", "String", "Counting"],
     "createdAt": "2025-08-14",
     "hasFrontmatter": true,
     "title": "Largest 3 Same Digit Number in String"
@@ -388,12 +317,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Greedy",
-      "Sorting"
-    ],
+    "topics": ["Array", "Math", "Greedy", "Sorting"],
     "createdAt": "2025-09-29",
     "hasFrontmatter": true,
     "title": "largest perimeter triangle"
@@ -409,11 +333,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Geometry"
-    ],
+    "topics": ["Array", "Math", "Geometry"],
     "createdAt": "2025-09-28",
     "hasFrontmatter": true,
     "title": "Largest Triangle Area"
@@ -429,11 +349,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "trie",
-      "String"
-    ],
+    "topics": ["Array", "trie", "String"],
     "createdAt": "2025-08-16",
     "hasFrontmatter": true,
     "title": "Longest Common Prefix"
@@ -449,11 +365,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Greedy",
-      "String Manipulation"
-    ],
+    "topics": ["Math", "Greedy", "String Manipulation"],
     "createdAt": "2025-08-16",
     "hasFrontmatter": true,
     "title": "maximum-69-number"
@@ -469,12 +381,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Geometry",
-      "Sorting"
-    ],
+    "topics": ["Array", "Math", "Geometry", "Sorting"],
     "createdAt": "2025-08-26",
     "hasFrontmatter": true,
     "title": "maximum-area-of-longest-diagonal-rectangle"
@@ -490,11 +397,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Set",
-      "Filtering"
-    ],
+    "topics": ["String", "Set", "Filtering"],
     "createdAt": "2025-09-15",
     "hasFrontmatter": true,
     "title": "maximum-number-of-words-you-can-type"
@@ -510,13 +413,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Subarray",
-      "Kadane",
-      "Prefix Sum",
-      "Math"
-    ],
+    "topics": ["Array", "Subarray", "Kadane", "Prefix Sum", "Math"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
     "title": "maximun-subarray-sum-with-length-divisible-by-k",
@@ -533,11 +430,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Linked List",
-      "Recursion",
-      "Merge"
-    ],
+    "topics": ["Linked List", "Recursion", "Merge"],
     "createdAt": "2025-08-19",
     "hasFrontmatter": true,
     "title": "merge-two-sorted-lists"
@@ -553,11 +446,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Dynamic Programming",
-      "Polygon",
-      "Interval DP"
-    ],
+    "topics": ["Dynamic Programming", "Polygon", "Interval DP"],
     "createdAt": "2025-09-30",
     "hasFrontmatter": true,
     "title": "minimum-score-triangulation-of-polygon"
@@ -573,10 +462,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "hard",
-    "topics": [
-      "Bit Manipulation",
-      "Dynamic Programming"
-    ],
+    "topics": ["Bit Manipulation", "Dynamic Programming"],
     "createdAt": "2025-11-09",
     "hasFrontmatter": true,
     "title": "Minimum One Bit Operations to Make Integers Zero"
@@ -592,12 +478,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "DFS",
-      "BFS",
-      "Matrix",
-      "Water Flow"
-    ],
+    "topics": ["DFS", "BFS", "Matrix", "Water Flow"],
     "createdAt": "2025-10-06",
     "hasFrontmatter": true,
     "title": "pacific-atlantic-water-flow"
@@ -613,11 +494,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Palindrome",
-      "Integer"
-    ],
+    "topics": ["Math", "Palindrome", "Integer"],
     "createdAt": "2025-08-14",
     "hasFrontmatter": true,
     "title": "palindrome-number"
@@ -633,12 +510,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Powers",
-      "Division",
-      "Magic Number"
-    ],
+    "topics": ["Math", "Powers", "Division", "Magic Number"],
     "createdAt": "2025-08-13",
     "hasFrontmatter": true,
     "title": "power-of-three"
@@ -654,10 +526,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Bit Manipulation",
-      "Math"
-    ],
+    "topics": ["Bit Manipulation", "Math"],
     "createdAt": "2025-11-04",
     "hasFrontmatter": true,
     "title": "power-of-two",
@@ -674,11 +543,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "In-place"
-    ],
+    "topics": ["Array", "Two Pointers", "In-place"],
     "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "remove-duplicates-from-sorted-array"
@@ -694,11 +559,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Hash Map",
-      "Roman Numerals"
-    ],
+    "topics": ["String", "Hash Map", "Roman Numerals"],
     "createdAt": "2025-08-20",
     "hasFrontmatter": true,
     "title": "roman-to-integer"
@@ -714,11 +575,7 @@
     "series": "daily",
     "category": "leetcode",
     "difficulty": "easy",
-    "topics": [
-      "Bit Manipulation",
-      "Math",
-      "Powers of Two"
-    ],
+    "topics": ["Bit Manipulation", "Math", "Powers of Two"],
     "createdAt": "2025-11-07T00:00:00.000Z",
     "hasFrontmatter": true,
     "title": "smallest-number-with-all-set-bits",
@@ -735,11 +592,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Binary Search",
-      "Sorting",
-      "Prefix Sum"
-    ],
+    "topics": ["Binary Search", "Sorting", "Prefix Sum"],
     "createdAt": "2025-10-08",
     "hasFrontmatter": true,
     "title": "successful-pairs-of-spells-and-potions"
@@ -755,11 +608,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Dynamic Programming",
-      "Path Sum"
-    ],
+    "topics": ["Array", "Dynamic Programming", "Path Sum"],
     "createdAt": "2025-09-26",
     "hasFrontmatter": true,
     "title": "triangle"
@@ -775,11 +624,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Hash Map",
-      "Two Sum"
-    ],
+    "topics": ["Array", "Hash Map", "Two Sum"],
     "createdAt": "2025-08-19",
     "hasFrontmatter": true,
     "title": "two-sum"
@@ -795,12 +640,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "Sorting",
-      "Triangle Inequality"
-    ],
+    "topics": ["Array", "Two Pointers", "Sorting", "Triangle Inequality"],
     "createdAt": "2025-09-26",
     "hasFrontmatter": true,
     "title": "valid-triangle-number"
@@ -816,11 +656,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Simulation",
-      "Math",
-      "Greedy"
-    ],
+    "topics": ["Simulation", "Math", "Greedy"],
     "createdAt": "2025-10-01",
     "hasFrontmatter": true,
     "title": "water-bottles"
@@ -836,11 +672,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Math",
-      "Simulation",
-      "Greedy"
-    ],
+    "topics": ["Math", "Simulation", "Greedy"],
     "createdAt": "2025-10-02",
     "hasFrontmatter": true,
     "title": "water-bottles-ii"
@@ -856,11 +688,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Greedy",
-      "One Pass"
-    ],
+    "topics": ["Array", "Greedy", "One Pass"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "best-time-to-buy-and-sell-stock",
@@ -877,11 +705,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Greedy",
-      "Multiple Transactions"
-    ],
+    "topics": ["Array", "Greedy", "Multiple Transactions"],
     "createdAt": "2025-11-26",
     "hasFrontmatter": true,
     "title": "best-time-to-sell-and-buy-stocks-ii",
@@ -898,11 +722,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Greedy",
-      "Reachability"
-    ],
+    "topics": ["Array", "Greedy", "Reachability"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
     "title": "jump-game",
@@ -919,11 +739,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Hash Map",
-      "Boyer-Moore"
-    ],
+    "topics": ["Array", "Hash Map", "Boyer-Moore"],
     "createdAt": "2025-11-18",
     "hasFrontmatter": true,
     "title": "majority-element",
@@ -940,11 +756,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "Sorting"
-    ],
+    "topics": ["Array", "Two Pointers", "Sorting"],
     "createdAt": "2025-11-11",
     "hasFrontmatter": true,
     "title": "merge-sorted-array",
@@ -961,11 +773,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "In-place"
-    ],
+    "topics": ["Array", "Two Pointers", "In-place"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "remove-duplicates-from-sorted-array",
@@ -982,11 +790,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "In-place"
-    ],
+    "topics": ["Array", "Two Pointers", "In-place"],
     "createdAt": "2025-11-19",
     "hasFrontmatter": true,
     "title": "remove-duplicates-from-sorted-array-ii",
@@ -1003,11 +807,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Two Pointers",
-      "In-place"
-    ],
+    "topics": ["Array", "Two Pointers", "In-place"],
     "createdAt": "2025-11-15",
     "hasFrontmatter": true,
     "title": "remove-element",
@@ -1024,12 +824,7 @@
     "series": "top-interview",
     "category": "top-interview-array-string",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Rotation",
-      "In-place",
-      "Reverse"
-    ],
+    "topics": ["Array", "Rotation", "In-place", "Reverse"],
     "createdAt": "2025-11-19",
     "hasFrontmatter": true,
     "title": "rotate-array",
@@ -1046,11 +841,7 @@
     "series": "top-interview",
     "category": "top-interview-hash-table",
     "difficulty": "easy",
-    "topics": [
-      "Hash Table",
-      "String",
-      "Mapping"
-    ],
+    "topics": ["Hash Table", "String", "Mapping"],
     "createdAt": "2025-09-08",
     "hasFrontmatter": true,
     "title": "isomorphic-strings"
@@ -1066,11 +857,7 @@
     "series": "top-interview",
     "category": "top-interview-hash-table",
     "difficulty": "easy",
-    "topics": [
-      "Hash Table",
-      "String",
-      "Frequency Counter"
-    ],
+    "topics": ["Hash Table", "String", "Frequency Counter"],
     "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "ransom-note"
@@ -1086,9 +873,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array"
-    ],
+    "topics": ["Array"],
     "createdAt": "2025-09-10",
     "hasFrontmatter": true,
     "title": "Summary Ranges"
@@ -1104,14 +889,11 @@
     "series": "top-interview",
     "category": "matrix",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Hash Table",
-      "Matrix"
-    ],
+    "topics": ["Array", "Hash Table", "Matrix"],
     "createdAt": "2025-09-04",
     "hasFrontmatter": true,
-    "title": "Valid Sudoku"
+    "title": "Valid Sudoku",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/valid-sudoku/"
   },
   {
     "name": "longest-substring-without-repeating-characters",
@@ -1124,11 +906,7 @@
     "series": "top-interview",
     "category": "daily | binary-search | ...",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Math",
-      "String"
-    ],
+    "topics": ["Array", "Math", "String"],
     "createdAt": "2025-10-01",
     "hasFrontmatter": true,
     "title": "Longest Substring Without Repeating Characters"
@@ -1144,12 +922,7 @@
     "series": "top-interview",
     "category": "top-interview",
     "difficulty": "medium",
-    "topics": [
-      "Array",
-      "Binary Search",
-      "Sliding Window",
-      "Prefix Sum"
-    ],
+    "topics": ["Array", "Binary Search", "Sliding Window", "Prefix Sum"],
     "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "minimum-size-subarray-sum"
@@ -1165,10 +938,7 @@
     "series": "top-interview",
     "category": "stack",
     "difficulty": "easy",
-    "topics": [
-      "Stack",
-      "String"
-    ],
+    "topics": ["Stack", "String"],
     "createdAt": "2025-09-09",
     "hasFrontmatter": true,
     "title": "Valid Parentheses"
@@ -1184,11 +954,7 @@
     "series": "top-interview",
     "category": "top-interview",
     "difficulty": "easy",
-    "topics": [
-      "Two Pointers",
-      "String",
-      "Dynamic Programming"
-    ],
+    "topics": ["Two Pointers", "String", "Dynamic Programming"],
     "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "is-subsequence"
@@ -1204,10 +970,7 @@
     "series": "top-interview",
     "category": "top-interview",
     "difficulty": "easy",
-    "topics": [
-      "Two Pointers",
-      "String"
-    ],
+    "topics": ["Two Pointers", "String"],
     "createdAt": "2025-09-03",
     "hasFrontmatter": true,
     "title": "valid-palindrome"
@@ -1223,10 +986,7 @@
     "series": "math",
     "category": "binary-search",
     "difficulty": "easy",
-    "topics": [
-      "Binary Search",
-      "Math"
-    ],
+    "topics": ["Binary Search", "Math"],
     "createdAt": "2025-09-10",
     "hasFrontmatter": true,
     "title": "valid-perfect-square"
@@ -1242,10 +1002,7 @@
     "series": "search-in-array",
     "category": "binary-search",
     "difficulty": "easy",
-    "topics": [
-      "Binary Search",
-      "Array"
-    ],
+    "topics": ["Binary Search", "Array"],
     "createdAt": "2025-09-07",
     "hasFrontmatter": true,
     "title": "binary-search"
@@ -1261,11 +1018,7 @@
     "series": "search-in-array",
     "category": "binary-search",
     "difficulty": "easy",
-    "topics": [
-      "Binary Search",
-      "Array",
-      "Insert"
-    ],
+    "topics": ["Binary Search", "Array", "Insert"],
     "createdAt": "2025-09-07",
     "hasFrontmatter": true,
     "title": "search-insert-position"
@@ -1281,10 +1034,7 @@
     "series": "standard-search",
     "category": "binary-search",
     "difficulty": "easy",
-    "topics": [
-      "Binary Search",
-      "Version Control"
-    ],
+    "topics": ["Binary Search", "Version Control"],
     "createdAt": "2025-09-10",
     "hasFrontmatter": true,
     "title": "first-bad-version"
@@ -1300,10 +1050,7 @@
     "series": "standard-search",
     "category": "binary-search",
     "difficulty": "easy",
-    "topics": [
-      "Binary Search",
-      "Game"
-    ],
+    "topics": ["Binary Search", "Game"],
     "createdAt": "2025-09-09",
     "hasFrontmatter": true,
     "title": "guess-number-higher-or-lower"
@@ -1319,11 +1066,7 @@
     "series": "parte-1-introduccion",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Closure",
-      "Function Factory",
-      "State Management"
-    ],
+    "topics": ["Closure", "Function Factory", "State Management"],
     "createdAt": "2025-08-26",
     "hasFrontmatter": true,
     "title": "counter"
@@ -1339,11 +1082,7 @@
     "series": "parte-1-introduccion",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Closure",
-      "Factory Pattern",
-      "State Management"
-    ],
+    "topics": ["Closure", "Factory Pattern", "State Management"],
     "createdAt": "2025-08-26",
     "hasFrontmatter": true,
     "title": "counter-ii"
@@ -1359,11 +1098,7 @@
     "series": "parte-1-introduccion",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Testing",
-      "Equality",
-      "Error Handling"
-    ],
+    "topics": ["Testing", "Equality", "Error Handling"],
     "createdAt": "2025-08-26",
     "hasFrontmatter": true,
     "title": "to-be-or-not-to-be"
@@ -1379,11 +1114,7 @@
     "series": "parte-2-transformacion-de-arrays",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Higher Order Function",
-      "Map"
-    ],
+    "topics": ["Array", "Higher Order Function", "Map"],
     "createdAt": "2025-08-27",
     "hasFrontmatter": true,
     "title": "apply-transform-over-each-element-in-array"
@@ -1399,11 +1130,7 @@
     "series": "parte-2-transformacion-de-arrays",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Reduce",
-      "Functional Programming"
-    ],
+    "topics": ["Array", "Reduce", "Functional Programming"],
     "createdAt": "2025-08-27",
     "hasFrontmatter": true,
     "title": "array-reduce-transformation"
@@ -1419,11 +1146,7 @@
     "series": "parte-2-transformacion-de-arrays",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Predicate",
-      "Filter"
-    ],
+    "topics": ["Array", "Predicate", "Filter"],
     "createdAt": "2025-08-27",
     "hasFrontmatter": true,
     "title": "filter-elements-from-array"
@@ -1439,11 +1162,7 @@
     "series": "30-days-js",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "String"
-    ],
+    "topics": ["Array", "Math", "String"],
     "createdAt": "2025-08-28",
     "hasFrontmatter": true,
     "title": "Allow One Function Call"
@@ -1459,11 +1178,7 @@
     "series": "parte-3-function-transformations",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Function Composition",
-      "Higher Order Function",
-      "Array"
-    ],
+    "topics": ["Function Composition", "Higher Order Function", "Array"],
     "createdAt": "2025-08-28",
     "hasFrontmatter": true,
     "title": "function-composition"
@@ -1479,11 +1194,7 @@
     "series": "parte-3-function-transformations",
     "category": "30-days-js",
     "difficulty": "medium",
-    "topics": [
-      "Memoization",
-      "Closure",
-      "Cache"
-    ],
+    "topics": ["Memoization", "Closure", "Cache"],
     "createdAt": "2025-09-01",
     "hasFrontmatter": true,
     "title": "memoize"
@@ -1499,11 +1210,7 @@
     "series": "parte-3-function-transformations",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Rest Parameters",
-      "Arguments",
-      "Function"
-    ],
+    "topics": ["Rest Parameters", "Arguments", "Function"],
     "createdAt": "2025-08-28",
     "hasFrontmatter": true,
     "title": "return-length-of-arguments-passed"
@@ -1519,11 +1226,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Promise",
-      "Async/Await",
-      "Concurrency"
-    ],
+    "topics": ["Promise", "Async/Await", "Concurrency"],
     "createdAt": "2025-09-01",
     "hasFrontmatter": true,
     "title": "add-two-promises"
@@ -1539,12 +1242,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "medium",
-    "topics": [
-      "Cache",
-      "Timeout",
-      "Map",
-      "OOP"
-    ],
+    "topics": ["Cache", "Timeout", "Map", "OOP"],
     "createdAt": "2025-09-02",
     "hasFrontmatter": true,
     "title": "cache-with-time-limit"
@@ -1560,12 +1258,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "medium",
-    "topics": [
-      "Interval",
-      "Timer",
-      "Closure",
-      "Async"
-    ],
+    "topics": ["Interval", "Timer", "Closure", "Async"],
     "createdAt": "2025-09-01",
     "hasFrontmatter": true,
     "title": "interval-cancellation"
@@ -1581,12 +1274,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "medium",
-    "topics": [
-      "Promise",
-      "Timeout",
-      "Async",
-      "Race Condition"
-    ],
+    "topics": ["Promise", "Timeout", "Async", "Race Condition"],
     "createdAt": "2025-09-02",
     "hasFrontmatter": true,
     "title": "promise-time-limit"
@@ -1602,11 +1290,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Async",
-      "Promise",
-      "Timer"
-    ],
+    "topics": ["Async", "Promise", "Timer"],
     "createdAt": "2025-09-01",
     "hasFrontmatter": true,
     "title": "sleep"
@@ -1622,11 +1306,7 @@
     "series": "parte-4-programacion-asincrona",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Timeout",
-      "Closure",
-      "Async"
-    ],
+    "topics": ["Timeout", "Closure", "Async"],
     "createdAt": "2025-09-01",
     "hasFrontmatter": true,
     "title": "timeout-cancellation"
@@ -1642,11 +1322,7 @@
     "series": "parte-5-JSON",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Prototype",
-      "Extension"
-    ],
+    "topics": ["Array", "Prototype", "Extension"],
     "createdAt": "2025-09-22",
     "hasFrontmatter": true,
     "title": "array-prototype-last"
@@ -1662,11 +1338,7 @@
     "series": "parte-5-JSON",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Chunk",
-      "Slicing"
-    ],
+    "topics": ["Array", "Chunk", "Slicing"],
     "createdAt": "2025-09-09",
     "hasFrontmatter": true,
     "title": "chunk-array"
@@ -1682,11 +1354,7 @@
     "series": "parte-5-JSON",
     "category": "30-days-js",
     "difficulty": "easy",
-    "topics": [
-      "Object",
-      "Array",
-      "Empty Check"
-    ],
+    "topics": ["Object", "Array", "Empty Check"],
     "createdAt": "2025-09-06",
     "hasFrontmatter": true,
     "title": "is-object-empty"
@@ -1702,10 +1370,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "String"
-    ],
+    "topics": ["Math", "String"],
     "createdAt": "2025-10-28",
     "hasFrontmatter": true,
     "title": "3 Strikes"
@@ -1721,11 +1386,7 @@
     "series": "daily",
     "category": "coding interview prep",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Base Conversion",
-      "Validation"
-    ],
+    "topics": ["String", "Base Conversion", "Validation"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "Base Check"
@@ -1741,9 +1402,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
     "title": "Camel Case",
@@ -1760,9 +1419,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-20",
     "hasFrontmatter": true,
     "title": "Character Battle"
@@ -1778,9 +1435,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "Factorializer"
@@ -1796,11 +1451,7 @@
     "series": "daily",
     "category": "coding interview prep",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Algorithms"
-    ],
+    "topics": ["Array", "Math", "Algorithms"],
     "createdAt": "2025-10-17",
     "hasFrontmatter": true,
     "title": "Fibonacci Sequence"
@@ -1839,9 +1490,7 @@
     "series": "daily",
     "category": "daily august",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-03",
     "hasFrontmatter": true,
     "title": "Message Decoder"
@@ -1857,9 +1506,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-10-28",
     "hasFrontmatter": true,
     "title": "Mile Pace"
@@ -1875,10 +1522,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Simulation"
-    ],
+    "topics": ["Array", "Simulation"],
     "createdAt": "2025-10-28",
     "hasFrontmatter": true,
     "title": "Navigator"
@@ -1894,10 +1538,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Stack"
-    ],
+    "topics": ["String", "Stack"],
     "createdAt": "2025-11-29",
     "hasFrontmatter": true,
     "title": "Reverse Parenthesis",
@@ -1914,9 +1555,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String"
-    ],
+    "topics": ["String"],
     "createdAt": "2025-10-20",
     "hasFrontmatter": true,
     "title": "Space Jam"
@@ -1932,10 +1571,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math"
-    ],
+    "topics": ["Array", "Math"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "Sum of Squares"
@@ -1975,9 +1611,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-11-06",
     "hasFrontmatter": true,
     "title": "Unnatural Prime"
@@ -1993,10 +1627,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Array"
-    ],
+    "topics": ["String", "Array"],
     "createdAt": "2025-10-05",
     "hasFrontmatter": true,
     "title": "Vowel Balance"
@@ -2012,9 +1643,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "string manipulation"
-    ],
+    "topics": ["string manipulation"],
     "createdAt": "2025-12-02T00:00:00.000Z",
     "hasFrontmatter": true,
     "title": "Camel to Snake",
@@ -2055,10 +1684,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Conversion"
-    ],
+    "topics": ["Math", "Conversion"],
     "createdAt": "2025-12-01",
     "hasFrontmatter": true,
     "title": "Miles To Kilometers",
@@ -2075,10 +1701,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "strings",
-      "basic math"
-    ],
+    "topics": ["strings", "basic math"],
     "createdAt": "2025-11-21",
     "hasFrontmatter": true,
     "title": "100-characters",
@@ -2095,11 +1718,7 @@
     "series": "daily",
     "category": "string analysis, AI detection",
     "difficulty": "easy",
-    "topics": [
-      "string manipulation",
-      "algorithms",
-      "regular expressions"
-    ],
+    "topics": ["string manipulation", "algorithms", "regular expressions"],
     "createdAt": "2025-11-30",
     "hasFrontmatter": true,
     "title": "Ai Detector",
@@ -2116,9 +1735,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-29",
     "hasFrontmatter": true,
     "title": "ball-trajectory",
@@ -2159,9 +1776,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "String"
-    ],
+    "topics": ["String"],
     "createdAt": "2025-11-08",
     "hasFrontmatter": true,
     "title": "Character Limit",
@@ -2178,9 +1793,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "count-rectangles",
@@ -2197,11 +1810,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Set",
-      "Conversion"
-    ],
+    "topics": ["Math", "Set", "Conversion"],
     "createdAt": "2025-11-07",
     "hasFrontmatter": true,
     "title": "Counting Cards",
@@ -2218,12 +1827,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math",
-      "Hash Table",
-      "Validation"
-    ],
+    "topics": ["String", "Math", "Hash Table", "Validation"],
     "createdAt": "2025-11-15",
     "hasFrontmatter": true,
     "title": "Days Until Weekend",
@@ -2240,10 +1844,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Validation"
-    ],
+    "topics": ["String", "Validation"],
     "createdAt": "2025-11-12",
     "hasFrontmatter": true,
     "title": "Email Signature Generator",
@@ -2260,9 +1861,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-10",
     "hasFrontmatter": true,
     "title": "extension-extractor",
@@ -2279,9 +1878,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-23",
     "hasFrontmatter": true,
     "title": "fizz-buzz",
@@ -2298,9 +1895,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-15",
     "hasFrontmatter": true,
     "title": "gcd",
@@ -2317,9 +1912,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-04",
     "hasFrontmatter": true,
     "title": "image-search",
@@ -2336,9 +1929,7 @@
     "series": "daily",
     "category": "daily november",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-03",
     "hasFrontmatter": true,
     "title": "infected"
@@ -2354,11 +1945,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm",
-      "Simulation",
-      "Math"
-    ],
+    "topics": ["Algorithm", "Simulation", "Math"],
     "createdAt": "2025-11-26",
     "hasFrontmatter": true,
     "title": "is-fizz-buzz",
@@ -2375,10 +1962,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Strings",
-      "Comparison"
-    ],
+    "topics": ["Strings", "Comparison"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "is-match",
@@ -2395,10 +1979,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Euclidean Algorithm"
-    ],
+    "topics": ["Math", "Euclidean Algorithm"],
     "createdAt": "2025-11-22",
     "hasFrontmatter": true,
     "title": "least-common-multiple",
@@ -2415,10 +1996,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "strings",
-      "regex"
-    ],
+    "topics": ["strings", "regex"],
     "createdAt": "2025-11-20",
     "hasFrontmatter": true,
     "title": "longest-word",
@@ -2435,11 +2013,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "regex",
-      "strings",
-      "parsing"
-    ],
+    "topics": ["regex", "strings", "parsing"],
     "createdAt": "2025-11-17",
     "hasFrontmatter": true,
     "title": "markdown-heading-converter",
@@ -2456,10 +2030,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "matrix",
-      "Matrix"
-    ],
+    "topics": ["matrix", "Matrix"],
     "createdAt": "2025-11-05",
     "hasFrontmatter": true,
     "title": "matrix-builder",
@@ -2476,9 +2047,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-24",
     "hasFrontmatter": true,
     "title": "message-validator",
@@ -2495,9 +2064,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-22",
     "hasFrontmatter": true,
     "title": "recipe-scale",
@@ -2514,9 +2081,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "array"
-    ],
+    "topics": ["array"],
     "createdAt": "2025-11-13",
     "hasFrontmatter": true,
     "title": "shift-array",
@@ -2533,9 +2098,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-02",
     "hasFrontmatter": true,
     "title": "signature-validation"
@@ -2551,9 +2114,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-12",
     "hasFrontmatter": true,
     "title": "vowels-and-consonants",
@@ -2570,10 +2131,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Date Computation",
-      "String Manipulation"
-    ],
+    "topics": ["Date Computation", "String Manipulation"],
     "createdAt": "2025-11-06",
     "hasFrontmatter": true,
     "title": "weekday-finder",
@@ -2590,10 +2148,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "date",
-      "math"
-    ],
+    "topics": ["date", "math"],
     "createdAt": "2025-11-28",
     "hasFrontmatter": true,
     "title": "whats-my-age-again",
@@ -2610,9 +2165,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Algorithm"
-    ],
+    "topics": ["Algorithm"],
     "createdAt": "2025-11-29",
     "hasFrontmatter": true,
     "title": "word-guesser"
@@ -2628,10 +2181,7 @@
     "series": "daily",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Matrix"
-    ],
+    "topics": ["Array", "Matrix"],
     "createdAt": "2025-11-10",
     "hasFrontmatter": true,
     "title": "word-search",
@@ -2648,12 +2198,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math",
-      "Validation",
-      "Conversion"
-    ],
+    "topics": ["String", "Math", "Validation", "Conversion"],
     "createdAt": "2025-10-13",
     "hasFrontmatter": true,
     "title": "24 To 12"
@@ -2692,12 +2237,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "String",
-      "Math",
-      "Conversion"
-    ],
+    "topics": ["Array", "String", "Math", "Conversion"],
     "createdAt": "2025-10-08",
     "hasFrontmatter": true,
     "title": "Binary To Decimal"
@@ -2713,11 +2253,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Validation",
-      "Conversion"
-    ],
+    "topics": ["Math", "Validation", "Conversion"],
     "createdAt": "2025-10-19",
     "hasFrontmatter": true,
     "title": "Calcetines Faltantes"
@@ -2733,12 +2269,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "String",
-      "Hash Table",
-      "Conversion"
-    ],
+    "topics": ["Array", "String", "Hash Table", "Conversion"],
     "createdAt": "2025-10-25",
     "hasFrontmatter": true,
     "title": "Complementary Dna"
@@ -2754,13 +2285,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "String",
-      "Math",
-      "Hash Table",
-      "Dynamic Programming"
-    ],
+    "topics": ["Array", "String", "Math", "Hash Table", "Dynamic Programming"],
     "createdAt": "2025-10-17",
     "hasFrontmatter": true,
     "title": "Credit Card Masker"
@@ -2776,13 +2301,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "String",
-      "Math",
-      "Validation",
-      "Conversion"
-    ],
+    "topics": ["Array", "String", "Math", "Validation", "Conversion"],
     "createdAt": "2025-10-06",
     "hasFrontmatter": true,
     "title": "Decimal To Binary"
@@ -2798,12 +2317,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math",
-      "Hash Table",
-      "Conversion"
-    ],
+    "topics": ["String", "Math", "Hash Table", "Conversion"],
     "createdAt": "2025-10-26",
     "hasFrontmatter": true,
     "title": "Duration Formatter"
@@ -2819,11 +2333,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "String",
-      "Sorting"
-    ],
+    "topics": ["Array", "String", "Sorting"],
     "createdAt": "2025-10-29",
     "hasFrontmatter": true,
     "title": "Email Sorter"
@@ -2839,12 +2349,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math",
-      "Set",
-      "Validation"
-    ],
+    "topics": ["String", "Math", "Set", "Validation"],
     "createdAt": "2025-10-16",
     "hasFrontmatter": true,
     "title": "Email Validator"
@@ -2860,10 +2365,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math"
-    ],
+    "topics": ["String", "Math"],
     "createdAt": "2025-10-05",
     "hasFrontmatter": true,
     "title": "exoplanet-search"
@@ -2879,10 +2381,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Sorting"
-    ],
+    "topics": ["Array", "Sorting"],
     "createdAt": "2025-10-23",
     "hasFrontmatter": true,
     "title": "favorite-songs"
@@ -2898,9 +2397,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-10-08",
     "hasFrontmatter": true,
     "title": "goldilocks-zone"
@@ -2916,10 +2413,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "String"
-    ],
+    "topics": ["Math", "String"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "hex-to-decimal"
@@ -2935,10 +2429,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Matrix"
-    ],
+    "topics": ["Array", "Matrix"],
     "createdAt": "2025-10-24",
     "hasFrontmatter": true,
     "title": "hidden-treasure"
@@ -2954,10 +2445,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Regex"
-    ],
+    "topics": ["String", "Regex"],
     "createdAt": "2025-10-20",
     "hasFrontmatter": true,
     "title": "html-attribute-extractor"
@@ -2973,10 +2461,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Regex"
-    ],
+    "topics": ["String", "Regex"],
     "createdAt": "2025-10-16",
     "hasFrontmatter": true,
     "title": "html-tag-stripper"
@@ -2992,10 +2477,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math"
-    ],
+    "topics": ["String", "Math"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "integer-sequence"
@@ -3011,10 +2493,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Matrix"
-    ],
+    "topics": ["Array", "Matrix"],
     "createdAt": "2025-10-08",
     "hasFrontmatter": true,
     "title": "landing-spot"
@@ -3030,10 +2509,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Simulation"
-    ],
+    "topics": ["Math", "Simulation"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "launch-fuel"
@@ -3049,10 +2525,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Date",
-      "Math"
-    ],
+    "topics": ["Date", "Math"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "moon-phase"
@@ -3068,10 +2541,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "medium",
-    "topics": [
-      "Math",
-      "Prime"
-    ],
+    "topics": ["Math", "Prime"],
     "createdAt": "2025-10-31",
     "hasFrontmatter": true,
     "title": "nth-prime"
@@ -3087,10 +2557,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Regex"
-    ],
+    "topics": ["String", "Regex"],
     "createdAt": "2025-10-06",
     "hasFrontmatter": true,
     "title": "password-strength"
@@ -3106,10 +2573,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Array"
-    ],
+    "topics": ["Math", "Array"],
     "createdAt": "2025-10-06",
     "hasFrontmatter": true,
     "title": "phone-home"
@@ -3125,10 +2589,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Array"
-    ],
+    "topics": ["String", "Array"],
     "createdAt": "2025-10-23",
     "hasFrontmatter": true,
     "title": "speak-wisely-you-must"
@@ -3144,10 +2605,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Regex"
-    ],
+    "topics": ["String", "Regex"],
     "createdAt": "2025-11-01",
     "hasFrontmatter": true,
     "title": "spooky-case"
@@ -3163,10 +2621,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "Mapping"
-    ],
+    "topics": ["Math", "Mapping"],
     "createdAt": "2025-10-04",
     "hasFrontmatter": true,
     "title": "stellar-classification"
@@ -3182,9 +2637,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String"
-    ],
+    "topics": ["String"],
     "createdAt": "2025-10-14",
     "hasFrontmatter": true,
     "title": "string-count"
@@ -3200,9 +2653,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-10-21",
     "hasFrontmatter": true,
     "title": "thermostat-adjuster-2"
@@ -3218,10 +2669,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "String"
-    ],
+    "topics": ["Math", "String"],
     "createdAt": "2025-10-20",
     "hasFrontmatter": true,
     "title": "tip-calculator"
@@ -3237,11 +2685,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Hash Table",
-      "Sorting"
-    ],
+    "topics": ["String", "Hash Table", "Sorting"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "anagram-checker"
@@ -3257,11 +2701,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Simulation"
-    ],
+    "topics": ["Array", "Math", "Simulation"],
     "createdAt": "2025-10-24",
     "hasFrontmatter": true,
     "title": "caught-speeding"
@@ -3277,10 +2717,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Array"
-    ],
+    "topics": ["String", "Array"],
     "createdAt": "2025-10-21",
     "hasFrontmatter": true,
     "title": "csv-header-parser"
@@ -3296,10 +2733,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Counting"
-    ],
+    "topics": ["String", "Counting"],
     "createdAt": "2025-10-25",
     "hasFrontmatter": true,
     "title": "digits-vs-letters"
@@ -3315,10 +2749,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Array"
-    ],
+    "topics": ["String", "Array"],
     "createdAt": "2025-10-21",
     "hasFrontmatter": true,
     "title": "longest-word"
@@ -3334,9 +2765,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math"
-    ],
+    "topics": ["Math"],
     "createdAt": "2025-10-25",
     "hasFrontmatter": true,
     "title": "perfect-square"
@@ -3352,10 +2781,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Formatting"
-    ],
+    "topics": ["String", "Formatting"],
     "createdAt": "2025-10-21",
     "hasFrontmatter": true,
     "title": "phone-number-formatter"
@@ -3371,11 +2797,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Math",
-      "Formatting"
-    ],
+    "topics": ["String", "Math", "Formatting"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "rgb-to-hex"
@@ -3391,10 +2813,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Sorting"
-    ],
+    "topics": ["Array", "Sorting"],
     "createdAt": "2025-10-24",
     "hasFrontmatter": true,
     "title": "second-largest"
@@ -3410,10 +2829,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Validation"
-    ],
+    "topics": ["String", "Validation"],
     "createdAt": "2025-10-22",
     "hasFrontmatter": true,
     "title": "spam-detector"
@@ -3429,10 +2845,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "String",
-      "Array"
-    ],
+    "topics": ["String", "Array"],
     "createdAt": "2025-10-25",
     "hasFrontmatter": true,
     "title": "string-mirror"
@@ -3448,10 +2861,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math"
-    ],
+    "topics": ["Array", "Math"],
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "tribonacci-sequence"
@@ -3467,10 +2877,7 @@
     "series": "daily",
     "category": "daily",
     "difficulty": "easy",
-    "topics": [
-      "Math",
-      "String"
-    ],
+    "topics": ["Math", "String"],
     "createdAt": "2025-10-26",
     "hasFrontmatter": true,
     "title": "video-storage"
@@ -3486,11 +2893,7 @@
     "series": "coding-interview-prep",
     "category": "algorithm",
     "difficulty": "medium",
-    "topics": [
-      "Set",
-      "Array",
-      "Map"
-    ],
+    "topics": ["Set", "Array", "Map"],
     "createdAt": "2025-10-08",
     "hasFrontmatter": true,
     "title": "symmetric-difference"
@@ -3506,11 +2909,7 @@
     "series": "coding-interview-prep",
     "category": "algorithm",
     "difficulty": "medium",
-    "topics": [
-      "Map",
-      "Array",
-      "Hash Table"
-    ],
+    "topics": ["Map", "Array", "Hash Table"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "update-inventory"
@@ -3526,10 +2925,7 @@
     "series": "project-euler",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "math",
-      "sequence"
-    ],
+    "topics": ["math", "sequence"],
     "createdAt": "2025-10-12",
     "hasFrontmatter": true,
     "title": "even-fibonacci-numbers"
@@ -3545,10 +2941,7 @@
     "series": "project-euler",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "math",
-      "prime"
-    ],
+    "topics": ["math", "prime"],
     "createdAt": "2025-10-14",
     "hasFrontmatter": true,
     "title": "largest-prime-factor"
@@ -3564,9 +2957,7 @@
     "series": "project-euler",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "math"
-    ],
+    "topics": ["math"],
     "createdAt": "2025-10-11",
     "hasFrontmatter": true,
     "title": "multiples-of-3-or-5"
@@ -3582,10 +2973,7 @@
     "series": "rosetta-code",
     "category": "freecodecamp",
     "difficulty": "easy",
-    "topics": [
-      "math",
-      "simulation"
-    ],
+    "topics": ["math", "simulation"],
     "createdAt": "2025-10-20",
     "hasFrontmatter": true,
     "title": "100-doors"
@@ -3601,10 +2989,7 @@
     "series": "rosetta-code",
     "category": "freecodecamp",
     "difficulty": "medium",
-    "topics": [
-      "backtracking",
-      "math"
-    ],
+    "topics": ["backtracking", "math"],
     "createdAt": "2025-10-21",
     "hasFrontmatter": true,
     "title": "24-game"
