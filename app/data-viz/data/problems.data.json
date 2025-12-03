@@ -890,7 +890,7 @@
     "category": "matrix",
     "difficulty": "medium",
     "topics": ["Array", "Hash Table", "Matrix"],
-    "createdAt": "2025-09-04",
+    "createdAt": "2025-12-03",
     "hasFrontmatter": true,
     "title": "Valid Sudoku",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/valid-sudoku/"
