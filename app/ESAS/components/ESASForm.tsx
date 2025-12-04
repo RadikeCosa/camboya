@@ -3,32 +3,51 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import { ESASSymptomNames } from "../esas.types";
-import {
-  ESAS_SYMPTOM_LABELS,
-  ESAS_FORM_TEXT,
-  ESAS_PATIENT_NAMES,
-  ESAS_PROFESSIONAL_NAME,
-} from "../esas.constants";
+import { ESAS_SYMPTOM_LABELS, ESAS_FORM_TEXT } from "../esas.constants";
 import { useESAS } from "../hooks/useESAS";
+import { useEntities } from "../hooks/useEntities";
 import SymptomSlider from "./SymptomSlider";
 import NotesField from "./NotesField";
 import FormActions from "./FormActions";
 import StatusMessage from "./StatusMessage";
+import CreateEntityModal from "./CreateEntityModal";
 
 export default function ESASForm() {
   const router = useRouter();
   const [formError, setFormError] = React.useState<string | null>(null);
   const [showSuccess, setShowSuccess] = React.useState(false);
+  const [showPatientModal, setShowPatientModal] = React.useState(false);
+  const [showProfessionalModal, setShowProfessionalModal] =
+    React.useState(false);
 
   const [dateTime, setDateTime] = React.useState(() => {
     const now = new Date();
     return now.toISOString().slice(0, 16);
   });
 
-  const [patient, setPatient] = React.useState(ESAS_PATIENT_NAMES[0]);
-  const [professional, setProfessional] = React.useState(
-    ESAS_PROFESSIONAL_NAME
-  );
+  const {
+    patients,
+    professionals,
+    loading: entitiesLoading,
+    createPatient,
+    createProfessional,
+  } = useEntities();
+
+  const [patient, setPatient] = React.useState("");
+  const [professional, setProfessional] = React.useState("");
+
+  // Update selected patient/professional when entities are loaded
+  React.useEffect(() => {
+    if (!entitiesLoading && patients.length > 0 && !patient) {
+      setPatient(patients[0].name);
+    }
+  }, [entitiesLoading, patients, patient]);
+
+  React.useEffect(() => {
+    if (!entitiesLoading && professionals.length > 0 && !professional) {
+      setProfessional(professionals[0].name);
+    }
+  }, [entitiesLoading, professionals, professional]);
 
   const {
     symptoms,
@@ -141,23 +160,50 @@ export default function ESASForm() {
               >
                 Paciente
               </label>
-              <select
-                id="patient"
-                value={patient}
-                onChange={(e) => setPatient(e.target.value)}
-                required
-                className="w-full px-3 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 text-sm transition-all"
-                style={{
-                  background: "var(--background)",
-                  color: "var(--foreground)",
-                }}
-              >
-                {ESAS_PATIENT_NAMES.map((name) => (
-                  <option key={name} value={name}>
-                    {name}
-                  </option>
-                ))}
-              </select>
+              <div className="flex gap-2">
+                <select
+                  id="patient"
+                  value={patient}
+                  onChange={(e) => setPatient(e.target.value)}
+                  required
+                  disabled={entitiesLoading || patients.length === 0}
+                  className="flex-1 px-3 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 text-sm transition-all disabled:opacity-50"
+                  style={{
+                    background: "var(--background)",
+                    color: "var(--foreground)",
+                  }}
+                >
+                  {patients.length === 0 ? (
+                    <option value="">Sin pacientes</option>
+                  ) : (
+                    patients.map((p) => (
+                      <option key={p.id} value={p.name}>
+                        {p.name}
+                      </option>
+                    ))
+                  )}
+                </select>
+                <button
+                  type="button"
+                  onClick={() => setShowPatientModal(true)}
+                  className="px-3 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium transition-colors hover:bg-blue-700 flex items-center gap-1"
+                  title="Crear nuevo paciente"
+                >
+                  <svg
+                    className="w-4 h-4"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M12 4v16m8-8H4"
+                    />
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </section>
@@ -212,20 +258,49 @@ export default function ESASForm() {
             >
               Profesional responsable
             </label>
-            <select
-              id="professional"
-              value={professional}
-              onChange={(e) => setProfessional(e.target.value)}
-              className="w-full px-3 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 text-sm transition-all"
-              style={{
-                background: "var(--background)",
-                color: "var(--foreground)",
-              }}
-            >
-              <option value={ESAS_PROFESSIONAL_NAME}>
-                {ESAS_PROFESSIONAL_NAME}
-              </option>
-            </select>
+            <div className="flex gap-2">
+              <select
+                id="professional"
+                value={professional}
+                onChange={(e) => setProfessional(e.target.value)}
+                disabled={entitiesLoading || professionals.length === 0}
+                className="flex-1 px-3 py-2.5 rounded-lg border border-gray-300 dark:border-gray-600 focus:outline-none focus:ring-2 focus:ring-blue-500/50 focus:border-blue-500 text-sm transition-all disabled:opacity-50"
+                style={{
+                  background: "var(--background)",
+                  color: "var(--foreground)",
+                }}
+              >
+                {professionals.length === 0 ? (
+                  <option value="">Sin profesionales</option>
+                ) : (
+                  professionals.map((p) => (
+                    <option key={p.id} value={p.name}>
+                      {p.name}
+                    </option>
+                  ))
+                )}
+              </select>
+              <button
+                type="button"
+                onClick={() => setShowProfessionalModal(true)}
+                className="px-3 py-2.5 rounded-lg bg-blue-600 text-white text-sm font-medium transition-colors hover:bg-blue-700 flex items-center gap-1"
+                title="Crear nuevo profesional"
+              >
+                <svg
+                  className="w-4 h-4"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M12 4v16m8-8H4"
+                  />
+                </svg>
+              </button>
+            </div>
           </div>
         </section>
 
@@ -287,6 +362,33 @@ export default function ESASForm() {
           resetLabel="Nueva evaluación"
         />
       </div>
+
+      {/* Modals */}
+      <CreateEntityModal
+        isOpen={showPatientModal}
+        onClose={() => setShowPatientModal(false)}
+        onSubmit={(name) => {
+          const success = createPatient(name);
+          if (success) {
+            setPatient(name);
+          }
+          return success;
+        }}
+        entityType="paciente"
+      />
+
+      <CreateEntityModal
+        isOpen={showProfessionalModal}
+        onClose={() => setShowProfessionalModal(false)}
+        onSubmit={(name) => {
+          const success = createProfessional(name);
+          if (success) {
+            setProfessional(name);
+          }
+          return success;
+        }}
+        entityType="profesional"
+      />
     </form>
   );
 }
