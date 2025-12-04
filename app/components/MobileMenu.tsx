@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useMobileMenu } from "../hooks/useMobileMenu";
 import NavLink from "./NavLink";
 import { mainSections, toolSections } from "../config/navigation";
+import { CloseIcon } from "../icons";
 
 export default function MobileMenu() {
   const { open, setOpen, panelRef, handleOverlayClick } = useMobileMenu();
@@ -88,9 +89,7 @@ export default function MobileMenu() {
                 onClick={handleClose}
                 autoFocus
               >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
+                <CloseIcon className="w-5 h-5" />
               </button>
             </div>
 

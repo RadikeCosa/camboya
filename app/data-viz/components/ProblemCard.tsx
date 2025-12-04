@@ -2,130 +2,100 @@
  * @fileoverview ProblemCard - Tarjeta visual para mostrar información de un problema.
  */
 
-import {
-  Box,
-  Typography,
-  Chip,
-  Stack,
-  Card,
-  CardContent,
-  Link,
-} from "@mui/material";
+import { Box, Typography, Card, CardContent, Link } from "@mui/material";
 import { ArticleIcon } from "../../icons";
 import { Problem } from "./types";
-import { normalizeTitle, getDifficultyColor, getSourceColor } from "./utils";
+import { normalizeTitle } from "./utils";
 
 interface ProblemCardProps {
   problem: Problem;
 }
 
 /**
+ * Obtiene el color neutro para el badge de dificultad.
+ */
+function getDifficultyBadgeStyle(difficulty: string): {
+  bgcolor: string;
+  color: string;
+} {
+  switch (difficulty.toLowerCase()) {
+    case "easy":
+      return { bgcolor: "#dcfce7", color: "#166534" };
+    case "medium":
+      return { bgcolor: "#fef3c7", color: "#92400e" };
+    case "hard":
+      return { bgcolor: "#fee2e2", color: "#991b1b" };
+    default:
+      return { bgcolor: "#f3f4f6", color: "#4b5563" };
+  }
+}
+
+/**
  * Tarjeta visual que muestra la información de un problema de programación.
- * Incluye título, dificultad, fuente, categoría y tópicos.
+ * Diseño minimalista: título, dificultad, fuente y link al blog (si existe).
  */
 export default function ProblemCard({ problem }: ProblemCardProps) {
+  const difficultyStyle = getDifficultyBadgeStyle(problem.difficulty);
+
   return (
     <Card
-      elevation={2}
+      elevation={0}
       sx={{
-        mb: 1.5,
-        // Transición suave para el efecto hover
-        transition: "all 0.2s ease-in-out",
+        mb: 1,
+        border: "1px solid #e5e7eb",
+        borderRadius: 1,
         "&:hover": {
-          elevation: 4,
-          transform: "translateY(-2px)",
-          boxShadow: 3,
+          borderColor: "#d1d5db",
         },
-        // Borde izquierdo coloreado según la fuente del problema
-        borderLeft: 4,
-        borderColor: getSourceColor(problem.source),
       }}
     >
       <CardContent sx={{ py: 1.5, px: 2, "&:last-child": { pb: 1.5 } }}>
-        {/* Encabezado: Título + Chip de dificultad */}
+        {/* Encabezado: Título + Badge de dificultad */}
         <Box
           display="flex"
           justifyContent="space-between"
-          alignItems="flex-start"
+          alignItems="center"
           flexWrap="wrap"
           gap={1}
         >
-          {/* Título del problema normalizado */}
-          <Typography variant="subtitle1" fontWeight={600} sx={{ flex: 1 }}>
+          {/* Título del problema */}
+          <Typography
+            variant="body2"
+            fontWeight={500}
+            color="text.primary"
+            sx={{ flex: 1 }}
+          >
             {normalizeTitle(problem.title)}
           </Typography>
-          {/* Badge de dificultad con color según nivel */}
-          <Chip
-            label={problem.difficulty}
-            size="small"
-            color={getDifficultyColor(problem.difficulty)}
-            sx={{ fontWeight: 500, textTransform: "capitalize" }}
-          />
-        </Box>
-
-        {/* Información de la fuente y categoría */}
-        <Stack
-          direction="row"
-          spacing={1}
-          alignItems="center"
-          sx={{ mt: 1, mb: 1 }}
-        >
-          {/* Badge de la fuente (LeetCode, freeCodeCamp, etc.) */}
-          <Chip
-            label={problem.source}
-            size="small"
-            variant="outlined"
+          {/* Badge de dificultad simple */}
+          <Box
+            component="span"
             sx={{
-              borderColor: getSourceColor(problem.source),
-              color: getSourceColor(problem.source),
+              px: 1,
+              py: 0.25,
+              borderRadius: 0.5,
+              fontSize: "0.7rem",
               fontWeight: 500,
               textTransform: "capitalize",
+              ...difficultyStyle,
             }}
-          />
-          {/* Categoría del problema */}
-          <Typography variant="caption" color="text.secondary">
-            {problem.category}
-          </Typography>
-        </Stack>
+          >
+            {problem.difficulty}
+          </Box>
+        </Box>
 
-        {/* Lista de tópicos (máximo 4 visibles + indicador de más) */}
-        {problem.topics.length > 0 && (
-          <Stack direction="row" spacing={0.5} flexWrap="wrap" useFlexGap>
-            {/* Mostrar solo los primeros 4 tópicos */}
-            {problem.topics.slice(0, 4).map((topic, idx) => (
-              <Chip
-                key={idx}
-                label={topic}
-                size="small"
-                variant="filled"
-                sx={{
-                  fontSize: "0.7rem",
-                  height: 22,
-                  bgcolor: "grey.100",
-                  color: "grey.700",
-                }}
-              />
-            ))}
-            {/* Si hay más de 4 tópicos, mostrar indicador */}
-            {problem.topics.length > 4 && (
-              <Chip
-                label={`+${problem.topics.length - 4}`}
-                size="small"
-                variant="filled"
-                sx={{
-                  fontSize: "0.7rem",
-                  height: 22,
-                  bgcolor: "grey.200",
-                  color: "grey.600",
-                }}
-              />
-            )}
-          </Stack>
-        )}
+        {/* Fuente como texto secundario */}
+        <Typography
+          variant="caption"
+          color="text.secondary"
+          sx={{ display: "block", mt: 0.5, textTransform: "capitalize" }}
+        >
+          {problem.source}
+        </Typography>
 
         {/* Link al artículo del blog (opcional) */}
         {problem.blogLink && (
-          <Box sx={{ mt: 1.5 }}>
+          <Box sx={{ mt: 1 }}>
             <Link
               href={problem.blogLink}
               target="_blank"
@@ -135,17 +105,16 @@ export default function ProblemCard({ problem }: ProblemCardProps) {
                 display: "inline-flex",
                 alignItems: "center",
                 gap: 0.5,
-                fontSize: "0.8rem",
+                fontSize: "0.75rem",
                 fontWeight: 500,
-                color: getSourceColor(problem.source),
-                transition: "all 0.2s ease-in-out",
+                color: "#6b7280",
                 "&:hover": {
-                  opacity: 0.8,
+                  color: "#374151",
                 },
               }}
             >
-              <ArticleIcon className="w-4 h-4" />
-              Ver artículo del blog
+              <ArticleIcon className="w-3 h-3" />
+              Ver en el blog
             </Link>
           </Box>
         )}

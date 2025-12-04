@@ -10,8 +10,6 @@ export {
   formatDate,
   formatDayOfWeek,
   normalizeTitle,
-  getDifficultyColor,
-  getSourceColor,
   groupByDate,
 } from "./utils";
 

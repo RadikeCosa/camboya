@@ -1,6 +1,7 @@
 import Link from "next/link";
 import ExerciseTimeline from "./components/ExerciseTimeline";
 import { Box, Container, Typography } from "@mui/material";
+import { HomeIcon, GitHubIcon } from "../icons";
 
 export default function DataVizPage() {
   return (
@@ -27,19 +28,7 @@ export default function DataVizPage() {
               textDecoration: "none",
             }}
           >
-            <svg
-              style={{ width: "16px", height: "16px" }}
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
-              />
-            </svg>
+            <HomeIcon className="w-4 h-4" />
             Inicio
           </Link>
           <span style={{ color: "var(--foreground-muted)" }}>/</span>
@@ -63,10 +52,37 @@ export default function DataVizPage() {
         >
           🚀 Progreso de Ejercicios
         </Typography>
+<<<<<<< HEAD
         <Typography variant="subtitle1" color="text.secondary" sx={{ mb: 4 }}>
-          Visualización de informacion sobre ejercicios de programación
-          realizados.
+          Visualización de tu progreso en la resolución de problemas de programación
         </Typography>
+        </Typography>
+
+        {/* GitHub repository link */}
+        <Box sx={{ mb: 4 }}>
+          <Link
+            href="https://github.com/RadikeCosa/leetCode"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: "inline-flex",
+              alignItems: "center",
+              gap: "6px",
+              color: "var(--foreground-muted)",
+              textDecoration: "none",
+              fontSize: "0.875rem",
+              fontWeight: 500,
+              padding: "6px 12px",
+              border: "1px solid #d1d5db",
+              borderRadius: "6px",
+              transition: "all 0.2s ease",
+            }}
+          >
+            <GitHubIcon className="w-4 h-4" />
+            Ver todos los ejercicios en GitHub
+          </Link>
+        </Box>
+
         <ExerciseTimeline />
       </Box>
     </Container>
