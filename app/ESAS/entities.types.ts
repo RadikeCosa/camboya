@@ -2,13 +2,13 @@ import { z } from "zod";
 
 export const PatientSchema = z.object({
   id: z.string(),
-  name: z.string().min(1, "El nombre es requerido"),
+  name: z.string().min(2, "El nombre debe tener al menos 2 caracteres"),
   createdAt: z.number(),
 });
 
 export const ProfessionalSchema = z.object({
   id: z.string(),
-  name: z.string().min(1, "El nombre es requerido"),
+  name: z.string().min(2, "El nombre debe tener al menos 2 caracteres"),
   createdAt: z.number(),
 });
 

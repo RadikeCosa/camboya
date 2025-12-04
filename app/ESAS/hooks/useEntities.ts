@@ -59,22 +59,28 @@ function getProfessionalsSnapshot(): Professional[] {
   return professionalsCache;
 }
 
-const emptyArray: never[] = [];
-function getServerSnapshot(): never[] {
-  return emptyArray;
+const emptyPatients: Patient[] = [];
+const emptyProfessionals: Professional[] = [];
+
+function getServerPatientsSnapshot(): Patient[] {
+  return emptyPatients;
+}
+
+function getServerProfessionalsSnapshot(): Professional[] {
+  return emptyProfessionals;
 }
 
 export function useEntities() {
   const patients = useSyncExternalStore(
     subscribePatientsStore,
     getPatientsSnapshot,
-    getServerSnapshot
+    getServerPatientsSnapshot
   );
 
   const professionals = useSyncExternalStore(
     subscribeProfessionalsStore,
     getProfessionalsSnapshot,
-    getServerSnapshot
+    getServerProfessionalsSnapshot
   );
 
   const createPatient = useCallback((name: string): boolean => {
