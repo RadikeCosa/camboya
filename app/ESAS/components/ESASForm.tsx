@@ -8,6 +8,9 @@ import {
   ESAS_FORM_TEXT,
   ESAS_PATIENT_NAMES,
   ESAS_PROFESSIONAL_NAME,
+  ESAS_FORM_INSTRUCTION,
+  ESAS_SYMPTOM_MIN_LABELS,
+  ESAS_SYMPTOM_MAX_LABELS,
 } from "../esas.constants";
 import { useESAS } from "../hooks/useESAS";
 import SymptomSlider from "./SymptomSlider";
@@ -91,11 +94,11 @@ export default function ESASForm() {
     <form
       aria-label={ESAS_FORM_TEXT.title}
       onSubmit={handleSubmit}
-      className="max-w-2xl mx-auto rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 overflow-hidden"
+      className="max-w-6xl mx-auto rounded-2xl shadow-xl border border-gray-200 dark:border-gray-700 overflow-hidden"
       style={{ background: "var(--background)", color: "var(--foreground)" }}
     >
       {/* Header */}
-      <div className="bg-gradient-to-r from-blue-600 to-blue-700 px-6 py-5">
+      <div className="bg-linear-to-r from-blue-600 to-blue-700 px-6 py-5">
         <h1 className="text-xl font-bold text-white">{ESAS_FORM_TEXT.title}</h1>
         <p className="text-blue-100 text-sm mt-1">
           Escala de Evaluación de Síntomas de Edmonton
@@ -164,24 +167,19 @@ export default function ESASForm() {
 
         {/* Síntomas */}
         <section>
-          <div className="flex items-center justify-between mb-4">
-            <h2 className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider">
-              Evaluación de Síntomas
-            </h2>
-            <div className="flex gap-2 text-xs">
-              <span className="px-2 py-1 rounded-full bg-green-100 text-green-700">
-                0-3 Leve
-              </span>
-              <span className="px-2 py-1 rounded-full bg-yellow-100 text-yellow-700">
-                4-6 Moderado
-              </span>
-              <span className="px-2 py-1 rounded-full bg-red-100 text-red-700">
-                7-10 Severo
-              </span>
-            </div>
+          <h2 className="text-sm font-semibold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-3">
+            Evaluación de Síntomas
+          </h2>
+
+          {/* Instruction header */}
+          <div className="mb-4 p-3 bg-blue-50 dark:bg-blue-900/20 rounded-lg border border-blue-200 dark:border-blue-800">
+            <p className="text-sm font-medium text-blue-800 dark:text-blue-200 italic">
+              {ESAS_FORM_INSTRUCTION}
+            </p>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {/* Symptoms table */}
+          <div className="border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden bg-gray-50 dark:bg-gray-900/50">
             {ESASSymptomNames.map((symptom) => (
               <SymptomSlider
                 key={symptom}
@@ -189,6 +187,8 @@ export default function ESASForm() {
                 label={ESAS_SYMPTOM_LABELS[symptom]}
                 value={symptoms[symptom]}
                 onChange={(value) => updateSymptom(symptom, value)}
+                minLabel={ESAS_SYMPTOM_MIN_LABELS[symptom]}
+                maxLabel={ESAS_SYMPTOM_MAX_LABELS[symptom]}
               />
             ))}
           </div>
@@ -237,7 +237,7 @@ export default function ESASForm() {
             aria-live="assertive"
           >
             <svg
-              className="w-5 h-5 flex-shrink-0"
+              className="w-5 h-5 shrink-0"
               fill="currentColor"
               viewBox="0 0 20 20"
             >
@@ -258,7 +258,7 @@ export default function ESASForm() {
             aria-live="polite"
           >
             <svg
-              className="w-5 h-5 flex-shrink-0"
+              className="w-5 h-5 shrink-0"
               fill="currentColor"
               viewBox="0 0 20 20"
             >

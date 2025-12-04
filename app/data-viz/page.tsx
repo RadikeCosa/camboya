@@ -43,9 +43,7 @@ export default function DataVizPage() {
             Inicio
           </Link>
           <span style={{ color: "var(--foreground-muted)" }}>/</span>
-          <span
-            style={{ color: "var(--foreground-strong)", fontWeight: 500 }}
-          >
+          <span style={{ color: "var(--foreground-strong)", fontWeight: 500 }}>
             Data Visualization
           </span>
         </Box>
@@ -66,8 +64,8 @@ export default function DataVizPage() {
           🚀 Progreso de Ejercicios
         </Typography>
         <Typography variant="subtitle1" color="text.secondary" sx={{ mb: 4 }}>
-          Visualización de tu progreso en la resolución de problemas de
-          programación
+          Visualización de informacion sobre ejercicios de programación
+          realizados.
         </Typography>
         <ExerciseTimeline />
       </Box>

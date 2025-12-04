@@ -1,4 +1,5 @@
 import React from "react";
+import { getSeverityColor } from "../utils";
 
 interface SymptomSliderProps {
   label: string;
@@ -7,19 +8,8 @@ interface SymptomSliderProps {
   max?: number;
   onChange: (value: number) => void;
   id: string;
-}
-
-function getSeverityColor(value: number): string {
-  if (value <= 3) return "bg-green-500";
-  if (value <= 6) return "bg-yellow-500";
-  return "bg-red-500";
-}
-
-function getSeverityLabel(value: number): string {
-  if (value === 0) return "Sin síntoma";
-  if (value <= 3) return "Leve";
-  if (value <= 6) return "Moderado";
-  return "Severo";
+  minLabel: string;
+  maxLabel: string;
 }
 
 export default function SymptomSlider({
@@ -29,55 +19,68 @@ export default function SymptomSlider({
   max = 10,
   onChange,
   id,
+  minLabel,
+  maxLabel,
 }: SymptomSliderProps) {
-  const percentage = ((value - min) / (max - min)) * 100;
+  const numbers = Array.from({ length: max - min + 1 }, (_, i) => i + min);
+  const severityColors = getSeverityColor(value);
 
   return (
-    <div className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-700 transition-all hover:shadow-sm">
-      <div className="flex items-center justify-between mb-3">
-        <label
-          htmlFor={id}
-          className="font-medium text-sm"
-          style={{ color: "var(--foreground-strong)" }}
-        >
-          {label}
-        </label>
-        <div className="flex items-center gap-2">
-          <span
-            className={`px-2 py-0.5 rounded-full text-xs font-medium text-white ${getSeverityColor(value)}`}
-          >
-            {getSeverityLabel(value)}
-          </span>
-          <span
-            className="text-xl font-bold min-w-[2rem] text-center"
-            style={{ color: "var(--foreground-strong)" }}
-          >
-            {value}
-          </span>
+    <div className="border-b border-gray-200 dark:border-gray-700 last:border-b-0">
+      <div className="grid grid-cols-[2fr_auto_2fr] gap-4 items-center py-4 px-2 hover:bg-gray-50 dark:hover:bg-gray-800/30 transition-colors">
+        {/* Left label - Minimum state */}
+        <div className="text-left">
+          <p className="text-sm text-gray-700 dark:text-gray-300">{minLabel}</p>
         </div>
-      </div>
 
-      <div className="relative">
-        <input
-          id={id}
-          type="range"
-          min={min}
-          max={max}
-          value={value}
-          onChange={(e) => onChange(Number(e.target.value))}
-          className="w-full h-2 bg-gray-200 dark:bg-gray-600 rounded-lg appearance-none cursor-pointer focus:outline-none focus:ring-2 focus:ring-blue-500/50"
-          style={{
-            background: `linear-gradient(to right, var(--accent) 0%, var(--accent) ${percentage}%, #e5e7eb ${percentage}%, #e5e7eb 100%)`,
-          }}
-          aria-valuenow={value}
-          aria-valuemin={min}
-          aria-valuemax={max}
-          aria-label={label}
-        />
-        <div className="flex justify-between text-[10px] text-gray-400 mt-1 px-0.5">
-          <span>0</span>
-          <span>5</span>
-          <span>10</span>
+        {/* Center - Number buttons */}
+        <fieldset className="flex gap-1 items-center">
+          <legend className="sr-only">{label}</legend>
+          {numbers.map((num) => {
+            const isChecked = value === num;
+            return (
+              <label
+                key={num}
+                className="relative cursor-pointer"
+                title={`${label}: ${num}`}
+              >
+                <input
+                  type="radio"
+                  name={id}
+                  value={num}
+                  checked={isChecked}
+                  onChange={() => onChange(num)}
+                  className="sr-only peer"
+                  aria-label={`${label}: ${num}`}
+                />
+                <div
+                  className={`
+                    w-10 h-10 flex items-center justify-center rounded-md
+                    text-sm font-medium
+                    border-2
+                    transition-all duration-200 ease-in-out
+                    ${
+                      isChecked
+                        ? `${severityColors.bg} ${severityColors.bgDark} ${severityColors.text} ${severityColors.border} scale-110`
+                        : "border-gray-300 dark:border-gray-600 text-gray-700 dark:text-gray-300 hover:bg-gray-100 dark:hover:bg-gray-700"
+                    }
+                    peer-focus:ring-2 ${
+                      isChecked
+                        ? severityColors.ring
+                        : "peer-focus:ring-blue-500/50"
+                    } peer-focus:ring-offset-2
+                  `}
+                >
+                  {num}
+                </div>
+              </label>
+            );
+          })}
+        </fieldset>
+
+        {/* Right label - Maximum state */}
+        <div className="text-right">
+          <p className="text-sm text-gray-700 dark:text-gray-300">{maxLabel}</p>
         </div>
       </div>
     </div>

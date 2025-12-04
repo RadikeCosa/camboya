@@ -1,16 +1,11 @@
 import React from "react";
 import { ESASAssessment } from "../esas.types";
 import { ESAS_SYMPTOM_LABELS } from "../esas.constants";
+import { getSeverityBadgeColor } from "../utils";
 
 interface ESASResultItemProps {
   assessment: ESASAssessment;
   onDelete: (id: string) => void;
-}
-
-function getSeverityColor(value: number): string {
-  if (value <= 3) return "bg-green-100 text-green-700";
-  if (value <= 6) return "bg-yellow-100 text-yellow-700";
-  return "bg-red-100 text-red-700";
 }
 
 function formatDateTime(dateTime: string): string {
@@ -55,8 +50,18 @@ export default function ESASResultItem({
           onClick={() => onDelete(assessment.id)}
           className="p-2 rounded-lg text-gray-400 hover:text-red-500 hover:bg-red-50 dark:hover:bg-red-900/20 transition-colors"
         >
-          <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16" />
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"
+            />
           </svg>
         </button>
       </div>
@@ -70,7 +75,9 @@ export default function ESASResultItem({
           {Object.entries(assessment.symptoms).map(([key, value]) => (
             <div
               key={key}
-              className={`px-3 py-2 rounded-lg text-center ${getSeverityColor(value)}`}
+              className={`px-3 py-2 rounded-lg text-center ${getSeverityBadgeColor(
+                value
+              )}`}
             >
               <span className="text-xs font-medium block truncate">
                 {ESAS_SYMPTOM_LABELS[key] || key}
@@ -95,7 +102,8 @@ export default function ESASResultItem({
         {/* Professional */}
         <div className="mt-4 pt-3 border-t border-gray-100 dark:border-gray-700 flex justify-end">
           <span className="text-xs text-gray-500 dark:text-gray-400">
-            Evaluado por: <span className="font-medium">{assessment.professional}</span>
+            Evaluado por:{" "}
+            <span className="font-medium">{assessment.professional}</span>
           </span>
         </div>
       </div>
