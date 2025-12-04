@@ -3,7 +3,6 @@
 import React from "react";
 import { useRouter } from "next/navigation";
 import { ESASSymptomNames } from "../esas.types";
-import { ESAS_SYMPTOM_LABELS, ESAS_FORM_TEXT } from "../esas.constants";
 import {
   ESAS_SYMPTOM_LABELS,
   ESAS_FORM_TEXT,
