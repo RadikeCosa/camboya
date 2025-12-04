@@ -2078,7 +2078,9 @@
     "difficulty": "easy",
     "topics": [],
     "createdAt": "2025-12-04",
-    "hasFrontmatter": false
+    "hasFrontmatter": false,
+    "title":"Permutation Count",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/permutation-count/"
   },
   {
     "name": "100-characters",
