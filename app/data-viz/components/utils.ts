@@ -6,20 +6,22 @@ import { Problem } from "./types";
 
 /**
  * Formatea una fecha ISO a formato dd/mm/yy.
+ * Uses UTC methods to ensure consistent output between server and client,
+ * avoiding timezone-related date shifts.
  * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
  * @returns Fecha formateada como dd/mm/yy
  */
 export function formatDate(dateStr: string): string {
   const date = new Date(dateStr);
-  const day = String(date.getDate()).padStart(2, "0");
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const year = String(date.getFullYear()).slice(-2);
+  const day = String(date.getUTCDate()).padStart(2, "0");
+  const month = String(date.getUTCMonth() + 1).padStart(2, "0");
+  const year = String(date.getUTCFullYear()).slice(-2);
   return `${day}/${month}/${year}`;
 }
 
 /**
  * Mapping array for Spanish day-of-week names.
- * Index corresponds to Date.getDay() (0 = Sunday, 6 = Saturday).
+ * Index corresponds to Date.getUTCDay() (0 = Sunday, 6 = Saturday).
  */
 const SPANISH_DAYS_OF_WEEK = [
   "domingo",
@@ -35,12 +37,13 @@ const SPANISH_DAYS_OF_WEEK = [
  * Obtiene el nombre del día de la semana en español.
  * This function uses a deterministic mapping array instead of toLocaleDateString
  * to ensure consistent output between server and client (hydration safety).
+ * Uses getUTCDay() to avoid timezone-related day shifts.
  * @param dateStr - Fecha en formato ISO (YYYY-MM-DD)
  * @returns Nombre del día de la semana en español
  */
 export function formatDayOfWeek(dateStr: string): string {
   const date = new Date(dateStr);
-  return SPANISH_DAYS_OF_WEEK[date.getDay()];
+  return SPANISH_DAYS_OF_WEEK[date.getUTCDay()];
 }
 
 /**
