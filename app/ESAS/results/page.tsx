@@ -91,6 +91,7 @@ export default function ESASResultsPage() {
         >
           <EmptyDocumentIcon
             className="w-12 h-12 mx-auto mb-4"
+            style={{ color: "var(--foreground-muted)" }}
           />
           <p
             className="text-lg font-medium"

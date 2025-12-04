@@ -1,9 +1,10 @@
 import { IconProps } from "./types";
 
-export default function EmptyDocumentIcon({ className = "w-5 h-5" }: IconProps) {
+export default function EmptyDocumentIcon({ className = "w-5 h-5", style }: IconProps) {
   return (
     <svg
       className={className}
+      style={style}
       fill="none"
       stroke="currentColor"
       viewBox="0 0 24 24"
