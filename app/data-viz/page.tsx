@@ -52,10 +52,8 @@ export default function DataVizPage() {
         >
           🚀 Progreso de Ejercicios
         </Typography>
-<<<<<<< HEAD
         <Typography variant="subtitle1" color="text.secondary" sx={{ mb: 4 }}>
           Visualización de tu progreso en la resolución de problemas de programación
-        </Typography>
         </Typography>
 
         {/* GitHub repository link */}
