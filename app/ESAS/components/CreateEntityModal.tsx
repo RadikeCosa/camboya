@@ -50,6 +50,9 @@ export default function CreateEntityModal({
     if (e.key === "Enter") {
       e.preventDefault();
       handleSubmit();
+    } else if (e.key === "Escape") {
+      e.preventDefault();
+      handleClose();
     }
   };
 
@@ -67,6 +70,7 @@ export default function CreateEntityModal({
       role="dialog"
       aria-modal="true"
       aria-labelledby="modal-title"
+      onKeyDown={handleKeyDown}
     >
       {/* Backdrop */}
       <div
