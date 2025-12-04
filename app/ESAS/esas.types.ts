@@ -1,28 +1,31 @@
 import { z } from "zod";
 
+// Orden estándar ESAS-r
 export const ESASSymptomNames = [
   "dolor",
   "fatiga",
+  "somnolencia",
   "náusea",
+  "apetito",
+  "disnea",
   "depresión",
   "ansiedad",
-  "somnolencia",
-  "apetito",
+  "sueño",
   "bienestar",
-  "disnea",
   "otros",
 ] as const;
 
 export const ESASSymptomSchema = z.object({
   dolor: z.number().min(0).max(10),
   fatiga: z.number().min(0).max(10),
+  somnolencia: z.number().min(0).max(10),
   náusea: z.number().min(0).max(10),
+  apetito: z.number().min(0).max(10),
+  disnea: z.number().min(0).max(10),
   depresión: z.number().min(0).max(10),
   ansiedad: z.number().min(0).max(10),
-  somnolencia: z.number().min(0).max(10),
-  apetito: z.number().min(0).max(10),
+  sueño: z.number().min(0).max(10),
   bienestar: z.number().min(0).max(10),
-  disnea: z.number().min(0).max(10),
   otros: z.number().min(0).max(10),
 });
 
