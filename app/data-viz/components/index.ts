@@ -16,5 +16,6 @@ export {
 // Componentes
 export { default as ExerciseTimeline } from "./ExerciseTimeline";
 export { default as ProblemCard } from "./ProblemCard";
+export { default as ProblemDetail } from "./ProblemDetail";
 export { default as SummaryPanel } from "./SummaryPanel";
 export { default as TimelineView } from "./TimelineView";
