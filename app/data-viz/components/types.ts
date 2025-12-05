@@ -37,4 +37,6 @@ export interface Problem {
   title: string;
   /** Link opcional al artículo del blog relacionado */
   blogLink?: string;
+  /** Link opcional al problema original (ej: leetcode, freecodecamp) */
+  problemLink?: string;
 }

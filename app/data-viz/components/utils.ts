@@ -70,3 +70,24 @@ export function groupByDate(problemList: Problem[]): Record<string, Problem[]> {
   });
   return map;
 }
+
+/**
+ * Obtiene los estilos de color para el badge de dificultad.
+ * @param difficulty - Nivel de dificultad del problema
+ * @returns Objeto con bgcolor y color para el badge
+ */
+export function getDifficultyBadgeStyle(difficulty: string): {
+  bgcolor: string;
+  color: string;
+} {
+  switch (difficulty.toLowerCase()) {
+    case "easy":
+      return { bgcolor: "#dcfce7", color: "#166534" };
+    case "medium":
+      return { bgcolor: "#fef3c7", color: "#92400e" };
+    case "hard":
+      return { bgcolor: "#fee2e2", color: "#991b1b" };
+    default:
+      return { bgcolor: "#f3f4f6", color: "#4b5563" };
+  }
+}
