@@ -194,8 +194,9 @@
     ],
     "createdAt": "2025-12-05T00:00:00.000Z",
     "hasFrontmatter": true,
-    "title": "Count Partitios With Even Sum Difference",
-    "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-partitios-with-even-sum-difference/"
+    "title": "Count Partitions With Even Sum Difference",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-partitions-with-even-sum-difference/",
+    "problemLink": "https://leetcode.com/problems/count-partitions-with-even-sum-difference/"
   },
   {
     "name": "final-value-of-variable-after-performing-operations",
@@ -2148,7 +2149,8 @@
     "createdAt": "2025-12-05T00:00:00.000Z",
     "hasFrontmatter": true,
     "title": "Symmetric Difference Daily",
-    "blogLink": "https://blog-astro-rouge.vercel.app/posts/symmetric-difference-daily/"
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/symmetric-difference-daily/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-05"
   },
   {
     "name": "100-characters",
