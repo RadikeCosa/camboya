@@ -16,13 +16,13 @@ export default function Home() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          Bienvenido a mi SandBox
+          Mi Progreso en Programación
         </h1>
         <p
           className="text-lg max-w-2xl mx-auto"
           style={{ color: "var(--foreground-muted)" }}
         >
-          Un SandBox para Ver mis Proyectos de Desarrollo.
+          Seguimiento de mis desafíos de programación diarios y proyectos de desarrollo.
         </p>
       </section>
 

@@ -1,73 +1,70 @@
-# 🚀 Portfolio Sandbox
+# 🚀 Mi Progreso en Programación
 
-A modern web application showcasing my development skills through interactive tools and data visualizations.
+Una aplicación web que registra mis desafíos de programación diarios y proyectos de desarrollo.
 
-## 📋 Overview
+## 📋 Descripción
 
-This project serves as a sandbox environment to demonstrate proficiency in modern web development technologies. It features two main applications:
+Este proyecto documenta mi progreso en programación a través de:
 
-- **ESAS Assessment Tool** – A medical assessment tool implementing the Edmonton Symptom Assessment System for patient symptom monitoring
-- **Coding Progress Tracker** – An interactive data visualization dashboard tracking my programming exercise progress
+- **Desafíos de Código** – Seguimiento interactivo de los problemas de programación que resuelvo diariamente (LeetCode, HackerRank, etc.)
+- **Proyectos** – Próximamente: Documentación de proyectos de programación en desarrollo
 
 ## 🛠️ Tech Stack
 
-| Category | Technologies |
+| Categoría | Tecnologías |
 |----------|-------------|
 | **Framework** | Next.js 16 (App Router) |
 | **Frontend** | React 19, TypeScript |
-| **Styling** | Tailwind CSS, Material-UI |
-| **Validation** | Zod |
+| **Estilos** | Tailwind CSS, Material-UI |
+| **Validación** | Zod |
 | **Build Tools** | ESLint, PostCSS |
 
-## 🏗️ Project Structure
+## 🏗️ Estructura del Proyecto
 
 ```
 app/
-├── ESAS/              # Medical assessment tool
-│   ├── components/    # Form components
-│   ├── hooks/         # Custom React hooks
-│   └── results/       # Results visualization
-├── data-viz/          # Coding progress dashboard
-│   ├── components/    # Timeline & charts
-│   └── data/          # Exercise data
-├── components/        # Shared UI components
-├── config/            # Navigation configuration
-├── hooks/             # Global custom hooks
-└── icons/             # SVG icon components
+├── data-viz/          # Dashboard de desafíos de código
+│   ├── components/    # Timeline y gráficos
+│   ├── data/          # Datos de ejercicios
+│   └── [problemName]/ # Páginas dinámicas por problema
+├── components/        # Componentes UI compartidos
+├── config/            # Configuración de navegación
+├── hooks/             # Custom hooks globales
+└── icons/             # Componentes de íconos SVG
 ```
 
-## 🚀 Getting Started
+## 🚀 Comenzar
 
 ```bash
-# Install dependencies
+# Instalar dependencias
 npm install
 
-# Start development server
+# Iniciar servidor de desarrollo
 npm run dev
 
-# Build for production
+# Build para producción
 npm run build
 
-# Run linting
+# Ejecutar linting
 npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) to view the application.
+Abre [http://localhost:3000](http://localhost:3000) para ver la aplicación.
 
-## ✨ Key Features
+## ✨ Características
 
-- **Responsive Design** – Fully optimized for desktop and mobile devices
-- **Type Safety** – Complete TypeScript implementation with Zod validation
-- **Modern Architecture** – Utilizing Next.js 16 App Router with React 19
-- **Component Library** – Custom components built with Material-UI and Tailwind CSS
-- **Clean Code** – Modular structure with separation of concerns
+- **Diseño Responsivo** – Optimizado para desktop y móvil
+- **Type Safety** – Implementación completa con TypeScript y validación con Zod
+- **Arquitectura Moderna** – Next.js 16 App Router con React 19
+- **Librería de Componentes** – Componentes custom con Material-UI y Tailwind CSS
+- **Código Limpio** – Estructura modular con separación de responsabilidades
 
-## 📫 Contact
+## 📫 Contacto
 
-Feel free to reach out for any questions or collaboration opportunities.
+No dudes en contactarme para preguntas o colaboraciones.
 
 ---
 
 <p align="center">
-  <em>Built with ❤️ using Next.js, React, and TypeScript</em>
+  <em>Construido con ❤️ usando Next.js, React, y TypeScript</em>
 </p>
