@@ -1,4 +1,4 @@
-# 🚀 Mi Progreso en Programación
+# 🚀 Tracker de Desarrollo
 
 Una aplicación web que registra mis desafíos de programación diarios y proyectos de desarrollo.
 
@@ -11,13 +11,13 @@ Este proyecto documenta mi progreso en programación a través de:
 
 ## 🛠️ Tech Stack
 
-| Categoría | Tecnologías |
-|----------|-------------|
-| **Framework** | Next.js 16 (App Router) |
-| **Frontend** | React 19, TypeScript |
-| **Estilos** | Tailwind CSS, Material-UI |
-| **Validación** | Zod |
-| **Build Tools** | ESLint, PostCSS |
+| Categoría       | Tecnologías               |
+| --------------- | ------------------------- |
+| **Framework**   | Next.js 16 (App Router)   |
+| **Frontend**    | React 19, TypeScript      |
+| **Estilos**     | Tailwind CSS, Material-UI |
+| **Validación**  | Zod                       |
+| **Build Tools** | ESLint, PostCSS           |
 
 ## 🏗️ Estructura del Proyecto
 

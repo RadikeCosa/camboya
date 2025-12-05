@@ -16,13 +16,14 @@ export default function Home() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          Mi Progreso en Programación
+          Tracker de Desarrollo
         </h1>
         <p
           className="text-lg max-w-2xl mx-auto"
           style={{ color: "var(--foreground-muted)" }}
         >
-          Seguimiento de mis desafíos de programación diarios y proyectos de desarrollo.
+          Seguimiento de mis desafíos de programación diarios y proyectos de
+          desarrollo.
         </p>
       </section>
 

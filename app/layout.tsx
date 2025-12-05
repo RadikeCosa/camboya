@@ -8,8 +8,9 @@ import Main from "./components/Main";
 import MobileMenu from "./components/MobileMenu";
 
 export const metadata: Metadata = {
-  title: "Mi Progreso en Programación",
-  description: "Seguimiento de desafíos de programación diarios y proyectos de desarrollo",
+  title: "Tracker de Desarrollo",
+  description:
+    "Seguimiento de desafíos de programación diarios y proyectos de desarrollo",
 };
 
 export default function RootLayout({
