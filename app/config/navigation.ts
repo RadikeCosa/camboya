@@ -1,7 +1,5 @@
 import {
   HomeIcon,
-  DocumentIcon,
-  DocumentChartIcon,
   BarChartIcon,
   type IconComponent,
 } from "../icons";
@@ -82,67 +80,31 @@ export const sections: SectionConfig[] = [
     showInHeader: true,
   },
   {
-    id: "esas",
-    href: "/ESAS",
-    Icon: DocumentIcon,
-    nav: {
-      label: "ESAS Assessment",
-      shortLabel: "ESAS",
-    },
-    type: "tool",
-    showInHeader: true,
-    showInFooter: true,
-    card: {
-      title: "ESAS Assessment Tool",
-      description:
-        "Escala de Evaluación de Síntomas de Edmonton. Registra y monitorea síntomas de pacientes de forma sistemática.",
-      tags: [
-        { label: "Evaluación", colorType: "success" },
-        { label: "Monitoreo", colorType: "warning" },
-        { label: "Médico", colorType: "info" },
-      ],
-      gradient: "primary",
-      linkText: "Ir a ESAS",
-    },
-    quickLink: {
-      label: "Nueva Evaluación",
-      variant: "primary",
-    },
-  },
-  {
-    id: "esas-results",
-    href: "/ESAS/results",
-    Icon: DocumentChartIcon,
-    nav: {
-      label: "ESAS Resultados",
-    },
-    type: "tool",
-    quickLink: {
-      label: "Ver Resultados",
-      variant: "secondary",
-    },
-  },
-  {
     id: "data-viz",
     href: "/data-viz",
     Icon: BarChartIcon,
     nav: {
-      label: "Data Visualization",
+      label: "Desafíos de Código",
       shortLabel: "Coding Data",
     },
     type: "tool",
     showInHeader: true,
     showInFooter: true,
     card: {
-      title: "Coding Data Tool",
-      description: "Visualizacion de Coding Challenges Data",
+      title: "Desafíos de Programación",
+      description:
+        "Seguimiento de los problemas de programación que resuelvo diariamente. Visualiza mi progreso y estadísticas.",
       tags: [
         { label: "Timeline", colorType: "info" },
         { label: "Estadísticas", colorType: "success" },
         { label: "Progreso", colorType: "warning" },
       ],
-      gradient: "accent",
-      linkText: "Ir a Coding Data",
+      gradient: "primary",
+      linkText: "Ver Desafíos",
+    },
+    quickLink: {
+      label: "Ver Progreso",
+      variant: "primary",
     },
   },
 ];
