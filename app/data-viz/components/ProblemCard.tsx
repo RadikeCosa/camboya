@@ -5,29 +5,10 @@
 import NextLink from "next/link";
 import { Box, Typography, Card, CardContent, CardActionArea } from "@mui/material";
 import { Problem } from "./types";
-import { normalizeTitle } from "./utils";
+import { normalizeTitle, getDifficultyBadgeStyle } from "./utils";
 
 interface ProblemCardProps {
   problem: Problem;
-}
-
-/**
- * Obtiene el color neutro para el badge de dificultad.
- */
-function getDifficultyBadgeStyle(difficulty: string): {
-  bgcolor: string;
-  color: string;
-} {
-  switch (difficulty.toLowerCase()) {
-    case "easy":
-      return { bgcolor: "#dcfce7", color: "#166534" };
-    case "medium":
-      return { bgcolor: "#fef3c7", color: "#92400e" };
-    case "hard":
-      return { bgcolor: "#fee2e2", color: "#991b1b" };
-    default:
-      return { bgcolor: "#f3f4f6", color: "#4b5563" };
-  }
 }
 
 /**

@@ -6,29 +6,10 @@
 import { Box, Typography, Paper, Chip, Stack, Link } from "@mui/material";
 import { ArticleIcon } from "../../icons";
 import { Problem } from "./types";
-import { normalizeTitle, formatDate, formatDayOfWeek } from "./utils";
+import { normalizeTitle, formatDate, formatDayOfWeek, getDifficultyBadgeStyle } from "./utils";
 
 interface ProblemDetailProps {
   problem: Problem;
-}
-
-/**
- * Obtiene el color para el badge de dificultad.
- */
-function getDifficultyBadgeStyle(difficulty: string): {
-  bgcolor: string;
-  color: string;
-} {
-  switch (difficulty.toLowerCase()) {
-    case "easy":
-      return { bgcolor: "#dcfce7", color: "#166534" };
-    case "medium":
-      return { bgcolor: "#fef3c7", color: "#92400e" };
-    case "hard":
-      return { bgcolor: "#fee2e2", color: "#991b1b" };
-    default:
-      return { bgcolor: "#f3f4f6", color: "#4b5563" };
-  }
 }
 
 /**

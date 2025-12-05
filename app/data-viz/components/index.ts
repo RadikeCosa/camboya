@@ -11,6 +11,7 @@ export {
   formatDayOfWeek,
   normalizeTitle,
   groupByDate,
+  getDifficultyBadgeStyle,
 } from "./utils";
 
 // Componentes

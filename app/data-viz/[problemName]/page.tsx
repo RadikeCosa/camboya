@@ -44,6 +44,7 @@ export default async function ProblemPage({ params }: ProblemPageProps) {
         {/* Breadcrumb navigation */}
         <Box
           component="nav"
+          aria-label="Breadcrumb"
           sx={{
             mb: 3,
             display: "flex",
@@ -65,7 +66,7 @@ export default async function ProblemPage({ params }: ProblemPageProps) {
             <HomeIcon className="w-4 h-4" />
             Inicio
           </Link>
-          <span style={{ color: "var(--foreground-muted)" }}>/</span>
+          <span style={{ color: "var(--foreground-muted)" }} aria-hidden="true">/</span>
           <Link
             href="/data-viz"
             style={{
@@ -75,8 +76,11 @@ export default async function ProblemPage({ params }: ProblemPageProps) {
           >
             Data Visualization
           </Link>
-          <span style={{ color: "var(--foreground-muted)" }}>/</span>
-          <span style={{ color: "var(--foreground-strong)", fontWeight: 500 }}>
+          <span style={{ color: "var(--foreground-muted)" }} aria-hidden="true">/</span>
+          <span 
+            style={{ color: "var(--foreground-strong)", fontWeight: 500 }}
+            aria-current="page"
+          >
             {problem.title}
           </span>
         </Box>
