@@ -30,9 +30,11 @@ export default function TimelineView({ dates, grouped }: TimelineViewProps) {
           {/* Contenido del lado izquierdo: información de la fecha */}
           <TimelineOppositeContent
             sx={{
-              flex: 0.2, // Ocupa 20% del ancho
-              minWidth: 100, // Ancho mínimo para legibilidad
+              flex: { xs: "none", sm: 0.2 }, // En mobile no usa flex, en desktop 20%
+              minWidth: { xs: 70, sm: 100 }, // Ancho mínimo reducido en mobile
+              maxWidth: { xs: 90, sm: "none" }, // Ancho máximo en mobile para evitar overflow
               py: 2,
+              px: { xs: 0.5, sm: 2 }, // Padding horizontal reducido en mobile
             }}
           >
             {/* Fecha en formato dd/mm/yy */}
@@ -40,11 +42,16 @@ export default function TimelineView({ dates, grouped }: TimelineViewProps) {
               variant="subtitle2"
               fontWeight={600}
               color="primary.main"
+              sx={{ fontSize: { xs: "0.75rem", sm: "0.875rem" } }}
             >
               {date}
             </Typography>
             {/* Día de la semana en español */}
-            <Typography variant="caption" color="text.secondary">
+            <Typography
+              variant="caption"
+              color="text.secondary"
+              sx={{ fontSize: { xs: "0.65rem", sm: "0.75rem" } }}
+            >
               {formatDayOfWeek(grouped[date][0].createdAt)}
             </Typography>
             {/* Contador de ejercicios del día */}
@@ -55,7 +62,18 @@ export default function TimelineView({ dates, grouped }: TimelineViewProps) {
               size="small"
               color="primary"
               variant="outlined"
-              sx={{ mt: 0.5, display: "block", width: "fit-content" }}
+              sx={{
+                mt: 0.5,
+                display: "block",
+                maxWidth: "100%",
+                "& .MuiChip-label": {
+                  whiteSpace: "nowrap",
+                  overflow: "hidden",
+                  textOverflow: "ellipsis",
+                  fontSize: { xs: "0.65rem", sm: "0.8125rem" },
+                  px: { xs: 0.5, sm: 1 },
+                },
+              }}
             />
           </TimelineOppositeContent>
 
