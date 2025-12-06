@@ -2065,6 +2065,27 @@
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/camel-to-snake/"
   },
   {
+    "name": "date-formatter",
+    "path": "src\\freecodecamp\\daily\\december\\date-formatter",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "daily",
+    "difficulty": "easy",
+    "topics": [
+      "string manipulation",
+      "date formatting"
+    ],
+    "createdAt": "2025-12-06T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Date Formatter",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/date-formatter/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06"
+  },
+  {
     "name": "markdown-ordered-list-item-converter",
     "path": "src\\freecodecamp\\daily\\december\\markdown-ordered-list-item-converter",
     "hasImplementation": true,
