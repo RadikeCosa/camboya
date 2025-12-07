@@ -2136,12 +2136,14 @@
     "hasTests": true,
     "hasExplanation": true,
     "hasPostSolution": false,
-    "source": "leetcode",
-    "series": "TODO",
-    "category": "TODO",
-    "difficulty": "TODO",
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "daily",
+    "difficulty": "easy",
     "topics": [
-      "TODO"
+      "string manipulation",
+      "arrays",
+      "regular expressions"
     ],
     "createdAt": "2025-12-07T00:00:00.000Z",
     "hasFrontmatter": true,
