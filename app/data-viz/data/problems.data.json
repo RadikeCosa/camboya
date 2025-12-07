@@ -177,28 +177,6 @@
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-operations-to-obtain-zero-leetcode/"
   },
   {
-    "name": "count-partitions-with-even-sum-difference",
-    "path": "src\\leetcode\\daily\\count-partitions-with-even-sum-difference",
-    "hasImplementation": true,
-    "hasTests": true,
-    "hasExplanation": true,
-    "hasPostSolution": true,
-    "source": "leetcode",
-    "series": "daily",
-    "category": "daily-challenge",
-    "difficulty": "easy",
-    "topics": [
-      "Array",
-      "Math",
-      "Prefix Sum"
-    ],
-    "createdAt": "2025-12-05T00:00:00.000Z",
-    "hasFrontmatter": true,
-    "title": "Count Partitions With Even Sum Difference",
-    "blogLink": "https://blog-astro-rouge.vercel.app/posts/count-partitions-with-even-sum-difference/",
-    "problemLink": "https://leetcode.com/problems/count-partitions-with-even-sum-difference/"
-  },
-  {
     "name": "final-value-of-variable-after-performing-operations",
     "path": "src\\leetcode\\daily\\final-value-of-variable-after-performing-operations",
     "hasImplementation": true,
@@ -2083,7 +2061,7 @@
     "hasFrontmatter": true,
     "title": "Date Formatter",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/date-formatter/",
-    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06"
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06/"
   },
   {
     "name": "markdown-ordered-list-item-converter",
@@ -2150,6 +2128,26 @@
     "hasFrontmatter": true,
     "title": "Permutation Count",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/permutation-count/"
+  },
+  {
+    "name": "string-compression",
+    "path": "src\\freecodecamp\\daily\\december\\string-compression",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "leetcode",
+    "series": "TODO",
+    "category": "TODO",
+    "difficulty": "TODO",
+    "topics": [
+      "TODO"
+    ],
+    "createdAt": "2025-12-07T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "String Compression",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/string-compression/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-07/"
   },
   {
     "name": "symmetric-difference-daily",
