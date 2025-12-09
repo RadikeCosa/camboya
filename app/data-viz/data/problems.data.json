@@ -2005,6 +2005,28 @@
     "title": "Unnatural Prime"
   },
   {
+    "name": "unorder-of-operations",
+    "path": "src\\freecodecamp\\daily\\august\\unorder-of-operations",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "august",
+    "difficulty": "easy",
+    "topics": [
+      "arithmetic",
+      "arrays",
+      "simulation"
+    ],
+    "createdAt": "2025-12-09T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Unorder Of Operations",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/unorder-of-operations/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-27/"
+  },
+  {
     "name": "vowel-balance",
     "path": "src\\freecodecamp\\daily\\august\\vowel-balance",
     "hasImplementation": true,
