@@ -1926,6 +1926,26 @@
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/reverse-parenthesis/"
   },
   {
+    "name": "second-best",
+    "path": "src\\freecodecamp\\daily\\august\\second-best",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "august",
+    "difficulty": "TODO",
+    "topics": [
+      "TODO"
+    ],
+    "createdAt": "2025-12-09T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Second Best",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/second-best/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-28/"
+  },
+  {
     "name": "space-jam",
     "path": "src\\freecodecamp\\daily\\august\\space-jam",
     "hasImplementation": true,
