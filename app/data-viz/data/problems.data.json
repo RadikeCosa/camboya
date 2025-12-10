@@ -2109,6 +2109,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06/"
   },
   {
+    "name": "markdown-bold-parser",
+    "path": "src\\freecodecamp\\daily\\december\\markdown-bold-parser",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "parsing",
+      "strings"
+    ],
+    "createdAt": "2025-12-10T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Markdown Bold Parser",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/markdown-bold-parser/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-10/"
+  },
+  {
     "name": "markdown-ordered-list-item-converter",
     "path": "src\\freecodecamp\\daily\\december\\markdown-ordered-list-item-converter",
     "hasImplementation": true,
