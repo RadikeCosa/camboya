@@ -1870,6 +1870,28 @@
     "title": "Fibonacci Sequence"
   },
   {
+    "name": "hex-generator",
+    "path": "src\\freecodecamp\\daily\\august\\hex-generator",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "august",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "random",
+      "colors"
+    ],
+    "createdAt": "2025-12-11T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Hex Generator",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/hex-generator/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-31/"
+  },
+  {
     "name": "jumbled-text",
     "path": "src\\freecodecamp\\daily\\august\\jumbled-text",
     "hasImplementation": true,
