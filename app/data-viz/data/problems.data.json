@@ -1733,6 +1733,27 @@
     "title": "3 Strikes"
   },
   {
+    "name": "array-duplicates",
+    "path": "src\\freecodecamp\\daily\\august\\array-duplicates",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "august",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "sorting"
+    ],
+    "createdAt": "2025-12-11T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Array Duplicates",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/array-duplicates/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-08-30/"
+  },
+  {
     "name": "base-check",
     "path": "src\\freecodecamp\\daily\\august\\base-check",
     "hasImplementation": true,
