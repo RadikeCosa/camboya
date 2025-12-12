@@ -3633,6 +3633,27 @@
     "title": "longest-word"
   },
   {
+    "name": "pangram",
+    "path": "src\\freecodecamp\\daily\\september\\pangram",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "sets"
+    ],
+    "createdAt": "2025-12-11T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Pangram",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/pangram/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-03/"
+  },
+  {
     "name": "perfect-square",
     "path": "src\\freecodecamp\\daily\\september\\perfect-square",
     "hasImplementation": true,
