@@ -2173,6 +2173,28 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06/"
   },
   {
+    "name": "inventory-update",
+    "path": "src\\freecodecamp\\daily\\december\\inventory-update",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "medium",
+    "topics": [
+      "arrays",
+      "hashmap",
+      "data manipulation"
+    ],
+    "createdAt": "2025-12-12T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Inventory Update",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/inventory-update/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-12/"
+  },
+  {
     "name": "markdown-bold-parser",
     "path": "src\\freecodecamp\\daily\\december\\markdown-bold-parser",
     "hasImplementation": true,
