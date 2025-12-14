@@ -3743,6 +3743,28 @@
     "title": "longest-word"
   },
   {
+    "name": "matrix-rotate",
+    "path": "src\\freecodecamp\\daily\\september\\matrix-rotate",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "medium",
+    "topics": [
+      "arrays",
+      "matrix",
+      "simulation"
+    ],
+    "createdAt": "2025-12-14T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Matrix Rotate",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/matrix-rotate/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-06/"
+  },
+  {
     "name": "pangram",
     "path": "src\\freecodecamp\\daily\\september\\pangram",
     "hasImplementation": true,
