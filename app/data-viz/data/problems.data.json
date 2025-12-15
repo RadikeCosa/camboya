@@ -3864,6 +3864,27 @@
     "title": "rgb-to-hex"
   },
   {
+    "name": "roman-numeral-parser",
+    "path": "src\\freecodecamp\\daily\\september\\roman-numeral-parser",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "parsing"
+    ],
+    "createdAt": "2025-12-15T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Roman Numeral Parser",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/roman-numeral-parser/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-07/"
+  },
+  {
     "name": "second-largest",
     "path": "src\\freecodecamp\\daily\\september\\second-largest",
     "hasImplementation": true,
