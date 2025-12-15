@@ -2397,6 +2397,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-11/"
   },
   {
+    "name": "speed-check",
+    "path": "src\\freecodecamp\\daily\\december\\speed-check",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "math",
+      "conditionals"
+    ],
+    "createdAt": "2025-12-15T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Speed Check",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/speed-check/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-15/"
+  },
+  {
     "name": "string-compression",
     "path": "src\\freecodecamp\\daily\\december\\string-compression",
     "hasImplementation": true,
