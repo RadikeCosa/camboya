@@ -3645,6 +3645,27 @@
     "title": "tip-calculator"
   },
   {
+    "name": "acronym-builder",
+    "path": "src\\freecodecamp\\daily\\september\\acronym-builder",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "arrays"
+    ],
+    "createdAt": "2025-12-16T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Acronym Builder",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/acronym-builder/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-08/"
+  },
+  {
     "name": "anagram-checker",
     "path": "src\\freecodecamp\\daily\\september\\anagram-checker",
     "hasImplementation": true,
@@ -3980,6 +4001,27 @@
     "createdAt": "2025-10-27",
     "hasFrontmatter": true,
     "title": "tribonacci-sequence"
+  },
+  {
+    "name": "unique-characters",
+    "path": "src\\freecodecamp\\daily\\september\\unique-characters",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "hash tables"
+    ],
+    "createdAt": "2025-12-16T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Unique Characters",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/unique-characters/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-09/"
   },
   {
     "name": "video-storage",
