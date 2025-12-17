@@ -40,6 +40,20 @@
     "title": "adjacent-increasing-subarrays-detection-i"
   },
   {
+    "name": "best-time-to-buy-and-sell-stock-v",
+    "path": "src\\leetcode\\daily\\best-time-to-buy-and-sell-stock-v",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": true,
+    "source": "leetcode",
+    "series": "daily",
+    "category": "daily",
+    "topics": [],
+    "createdAt": "2025-12-17",
+    "hasFrontmatter": false
+  },
+  {
     "name": "binary-prefix-divisible-by-five",
     "path": "src\\leetcode\\daily\\binary-prefix-divisible-by-five",
     "hasImplementation": true,
