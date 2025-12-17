@@ -3709,6 +3709,27 @@
     "title": "anagram-checker"
   },
   {
+    "name": "array-diff",
+    "path": "src\\freecodecamp\\daily\\september\\array-diff",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "freecodecamp",
+      "daily-challenge"
+    ],
+    "createdAt": "2025-12-17T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Array Diff",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/array-diff/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-10"
+  },
+  {
     "name": "caught-speeding",
     "path": "src\\freecodecamp\\daily\\september\\caught-speeding",
     "hasImplementation": true,
