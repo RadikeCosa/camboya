@@ -2194,6 +2194,28 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-14/"
   },
   {
+    "name": "checkerboard",
+    "path": "src\\freecodecamp\\daily\\december\\checkerboard",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "Easy",
+    "topics": [
+      "matrices",
+      "patrones",
+      "bucles"
+    ],
+    "createdAt": "2025-12-18T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Checkerboard",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/checkerboard/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-18/"
+  },
+  {
     "name": "consonant-count",
     "path": "src\\freecodecamp\\daily\\december\\consonant-count",
     "hasImplementation": true,
