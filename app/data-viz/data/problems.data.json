@@ -2415,6 +2415,26 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-09"
   },
   {
+    "name": "pairwise",
+    "path": "src\\freecodecamp\\daily\\december\\pairwise",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "medium",
+    "topics": [
+      "arrays"
+    ],
+    "createdAt": "2025-12-19T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Pairwise",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/pairwise/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-19/"
+  },
+  {
     "name": "permutation-count",
     "path": "src\\freecodecamp\\daily\\december\\permutation-count",
     "hasImplementation": true,
