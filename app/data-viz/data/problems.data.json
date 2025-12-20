@@ -705,6 +705,26 @@
     "title": "remove-duplicates-from-sorted-array"
   },
   {
+    "name": "reverse-integer",
+    "path": "src\\leetcode\\daily\\reverse-integer",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": true,
+    "source": "leetcode",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "medium",
+    "topics": [
+      "Math"
+    ],
+    "createdAt": "2025-12-20T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Reverse Integer",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/reverse-integer/",
+    "problemLink": "https://leetcode.com/problems/reverse-integer/description/"
+  },
+  {
     "name": "roman-to-integer",
     "path": "src\\leetcode\\daily\\roman-to-integer",
     "hasImplementation": true,
