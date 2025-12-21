@@ -544,6 +544,28 @@
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/maximum-subarray-sum-with-length-divisible-by-k/"
   },
   {
+    "name": "median-of-two-sorted-arrays",
+    "path": "src\\leetcode\\daily\\median-of-two-sorted-arrays",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": true,
+    "source": "leetcode",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "TODO",
+    "topics": [
+      "array",
+      "binary-search",
+      "divide-and-conquer"
+    ],
+    "createdAt": "2025-12-20T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Median Of Two Sorted Arrays",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/median-of-two-sorted-arrays/",
+    "problemLink": "https://leetcode.com/problems/median-of-two-sorted-arrays/description/"
+  },
+  {
     "name": "merge-two-sorted-lists",
     "path": "src\\leetcode\\daily\\merge-two-sorted-lists",
     "hasImplementation": true,
@@ -2276,6 +2298,29 @@
     "title": "Date Formatter",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/date-formatter/",
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-06/"
+  },
+  {
+    "name": "daylight-hours",
+    "path": "src\\freecodecamp\\daily\\december\\daylight-hours",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "lookup-table",
+      "search",
+      "edge-cases",
+      "math"
+    ],
+    "createdAt": "2025-12-21T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Daylight Hours",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/daylight-hours/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-21/"
   },
   {
     "name": "game-of-life",
