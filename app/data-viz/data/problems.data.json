@@ -2658,6 +2658,29 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-05"
   },
   {
+    "name": "traveling-shopper",
+    "path": "src\\freecodecamp\\daily\\december\\traveling-shopper",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "simulation",
+      "math",
+      "greedy"
+    ],
+    "createdAt": "2025-12-22T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Traveling Shopper",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/traveling-shopper/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
+  },
+  {
     "name": "100-characters",
     "path": "src\\freecodecamp\\daily\\november\\100-characters",
     "hasImplementation": true,
