@@ -4109,6 +4109,26 @@
     "title": "phone-number-formatter"
   },
   {
+    "name": "reverse-sentence",
+    "path": "src\\freecodecamp\\daily\\september\\reverse-sentence",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "TODO",
+    "topics": [
+      "TODO"
+    ],
+    "createdAt": "2025-12-22T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Reverse Sentence",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/reverse-sentence/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-11/"
+  },
+  {
     "name": "rgb-to-hex",
     "path": "src\\freecodecamp\\daily\\september\\rgb-to-hex",
     "hasImplementation": true,
