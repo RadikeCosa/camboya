@@ -2323,6 +2323,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-21/"
   },
   {
+    "name": "email-chain-count",
+    "path": "src\\freecodecamp\\daily\\december\\email-chain-count",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "regex"
+    ],
+    "createdAt": "2025-12-23T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Email Chain Count",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/email-chain-count/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-23/"
+  },
+  {
     "name": "game-of-life",
     "path": "src\\freecodecamp\\daily\\december\\game-of-life",
     "hasImplementation": true,
