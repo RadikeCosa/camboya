@@ -2434,6 +2434,29 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-10/"
   },
   {
+    "name": "markdown-image-parser",
+    "path": "src\\freecodecamp\\daily\\december\\markdown-image-parser",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "markdown",
+      "parsing",
+      "strings",
+      "html"
+    ],
+    "createdAt": "2025-12-24T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Markdown Image Parser",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/markdown-image-parser/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-24/"
+  },
+  {
     "name": "markdown-ordered-list-item-converter",
     "path": "src\\freecodecamp\\daily\\december\\markdown-ordered-list-item-converter",
     "hasImplementation": true,
