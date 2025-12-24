@@ -4072,6 +4072,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-06/"
   },
   {
+    "name": "missing-numbers",
+    "path": "src\\freecodecamp\\daily\\september\\missing-numbers",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "counting"
+    ],
+    "createdAt": "2025-12-24T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Missing Numbers",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/missing-numbers/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-13/"
+  },
+  {
     "name": "pangram",
     "path": "src\\freecodecamp\\daily\\september\\pangram",
     "hasImplementation": true,
