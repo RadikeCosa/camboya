@@ -4032,6 +4032,26 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-20/"
   },
   {
+    "name": "fill-the-tank",
+    "path": "src\\freecodecamp\\daily\\september\\fill-the-tank",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "math"
+    ],
+    "createdAt": "2025-12-24T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Fill The Tank",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/fill-the-tank/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-18/"
+  },
+  {
     "name": "ipv4-validator",
     "path": "src\\freecodecamp\\daily\\september\\ipv4-validator",
     "hasImplementation": true,
