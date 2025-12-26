@@ -2700,6 +2700,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-07/"
   },
   {
+    "name": "sum-of-divisors",
+    "path": "src\\freecodecamp\\daily\\december\\sum-of-divisors",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "math",
+      "brute-force"
+    ],
+    "createdAt": "2025-12-26T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Sum Of Divisors",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/sum-of-divisors/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-26/"
+  },
+  {
     "name": "symmetric-difference-daily",
     "path": "src\\freecodecamp\\daily\\december\\symmetric-difference-daily",
     "hasImplementation": true,
