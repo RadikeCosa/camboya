@@ -4545,6 +4545,32 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-04/"
   },
   {
+    "name": "word-frequency",
+    "path": "src\\freecodecamp\\daily\\september\\word-frequency",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "string",
+      "counting",
+      "hash-table",
+      "frequency",
+      "dictionary",
+      "word-processing",
+      "data-structures"
+    ],
+    "createdAt": "2025-12-30T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Word Frequency",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/word-frequency/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-14/"
+  },
+  {
     "name": "symmetric-difference",
     "path": "src\\freecodecamp\\coding-interview-prep\\algorithm\\symmetric-difference",
     "hasImplementation": true,
