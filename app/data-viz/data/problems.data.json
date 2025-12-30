@@ -2786,6 +2786,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-05"
   },
   {
+    "name": "take-off-fuel",
+    "path": "src\\freecodecamp\\daily\\december\\take-off-fuel",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "math",
+      "conversion"
+    ],
+    "createdAt": "2025-12-29T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Take Off Fuel",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/take-off-fuel/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-29/"
+  },
+  {
     "name": "traveling-shopper",
     "path": "src\\freecodecamp\\daily\\december\\traveling-shopper",
     "hasImplementation": true,
