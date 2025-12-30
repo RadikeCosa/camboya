@@ -2658,6 +2658,28 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-11/"
   },
   {
+    "name": "screaming-snake-case",
+    "path": "src\\freecodecamp\\daily\\december\\screaming-snake-case",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "december",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "formatting",
+      "case conversion"
+    ],
+    "createdAt": "2025-12-28T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Screaming Snake Case",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/screaming-snake-case/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-28/"
+  },
+  {
     "name": "snowflake-generator",
     "path": "src\\freecodecamp\\daily\\december\\snowflake-generator",
     "hasImplementation": true,
