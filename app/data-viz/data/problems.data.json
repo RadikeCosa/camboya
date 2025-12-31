@@ -4449,6 +4449,27 @@
     "title": "second-largest"
   },
   {
+    "name": "sentence-capitalizer",
+    "path": "src\\freecodecamp\\daily\\september\\sentence-capitalizer",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "regex",
+      "text manipulation"
+    ],
+    "createdAt": "2025-12-31T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Sentence Capitalizer",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/sentence-capitalizer/"
+  },
+  {
     "name": "spam-detector",
     "path": "src\\freecodecamp\\daily\\september\\spam-detector",
     "hasImplementation": true,
