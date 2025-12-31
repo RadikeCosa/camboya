@@ -4345,6 +4345,28 @@
     "title": "phone-number-formatter"
   },
   {
+    "name": "photo-storage",
+    "path": "src\\freecodecamp\\daily\\september\\photo-storage",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "hash tables",
+      "data storage"
+    ],
+    "createdAt": "2025-12-31T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Photo Storage",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/photo-storage/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-19/"
+  },
+  {
     "name": "reverse-sentence",
     "path": "src\\freecodecamp\\daily\\september\\reverse-sentence",
     "hasImplementation": true,
@@ -4468,6 +4490,28 @@
     "hasFrontmatter": true,
     "title": "Sentence Capitalizer",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/sentence-capitalizer/"
+  },
+  {
+    "name": "slug-generator",
+    "path": "src\\freecodecamp\\daily\\september\\slug-generator",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "strings",
+      "regex",
+      "text manipulation"
+    ],
+    "createdAt": "2025-12-31T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Slug Generator",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/slug-generator/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-17/"
   },
   {
     "name": "spam-detector",
