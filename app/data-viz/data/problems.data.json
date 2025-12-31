@@ -4487,6 +4487,28 @@
     "title": "string-mirror"
   },
   {
+    "name": "thermostat-adjuster",
+    "path": "src\\freecodecamp\\daily\\september\\thermostat-adjuster",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "september",
+    "difficulty": "easy",
+    "topics": [
+      "logic",
+      "conditionals",
+      "math"
+    ],
+    "createdAt": "2025-12-31T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Thermostat Adjuster",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/thermostat-adjuster/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-09-15/"
+  },
+  {
     "name": "tribonacci-sequence",
     "path": "src\\freecodecamp\\daily\\september\\tribonacci-sequence",
     "hasImplementation": true,
