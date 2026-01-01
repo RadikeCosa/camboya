@@ -2876,6 +2876,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
   },
   {
+    "name": "resolution-streak",
+    "path": "src\\freecodecamp\\daily\\january\\resolution-streak",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "medium",
+    "topics": [
+      "arrays",
+      "hash-table"
+    ],
+    "createdAt": "2026-01-01T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Resolution Streak",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/resolution-streak/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-01/"
+  },
+  {
     "name": "100-characters",
     "path": "src\\freecodecamp\\daily\\november\\100-characters",
     "hasImplementation": true,
