@@ -2888,7 +2888,8 @@
     "category": "january",
     "difficulty": "easy",
     "topics": [
-      "math"
+      "math",
+      "iteration"
     ],
     "createdAt": "2026-01-02T00:00:00.000Z",
     "hasFrontmatter": true,
