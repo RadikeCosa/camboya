@@ -2885,10 +2885,11 @@
     "source": "freecodecamp",
     "series": "daily",
     "category": "january",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "topics": [
       "arrays",
-      "hash-table"
+      "iteration",
+      "input-validation"
     ],
     "createdAt": "2026-01-01T00:00:00.000Z",
     "hasFrontmatter": true,
