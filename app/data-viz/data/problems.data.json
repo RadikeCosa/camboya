@@ -553,11 +553,12 @@
     "source": "leetcode",
     "series": "daily",
     "category": "december",
-    "difficulty": "TODO",
+    "difficulty": "hard",
     "topics": [
       "array",
       "binary-search",
-      "divide-and-conquer"
+      "divide-and-conquer",
+      "two-pointers"
     ],
     "createdAt": "2025-12-20T00:00:00.000Z",
     "hasFrontmatter": true,
@@ -2874,6 +2875,26 @@
     "title": "Traveling Shopper",
     "blogLink": "https://blog-astro-rouge.vercel.app/posts/traveling-shopper/",
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
+  },
+  {
+    "name": "nth-fibonacci-number",
+    "path": "src\\freecodecamp\\daily\\january\\nth-fibonacci-number",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "math"
+    ],
+    "createdAt": "2026-01-02T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Nth Fibonacci Number",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/nth-fibonacci-number/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-02/"
   },
   {
     "name": "resolution-streak",
