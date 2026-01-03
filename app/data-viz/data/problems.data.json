@@ -2877,6 +2877,29 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
   },
   {
+    "name": "left-handed-seat-at-the-table",
+    "path": "src\\freecodecamp\\daily\\january\\left-handed-seat-at-the-table",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "matrix",
+      "simulation",
+      "conditional-logic"
+    ],
+    "createdAt": "2026-01-03T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Left Handed Seat At The Table",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/left-handed-seat-at-the-table/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-03/"
+  },
+  {
     "name": "nth-fibonacci-number",
     "path": "src\\freecodecamp\\daily\\january\\nth-fibonacci-number",
     "hasImplementation": true,
