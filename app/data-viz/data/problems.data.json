@@ -460,6 +460,28 @@
     "title": "Longest Common Prefix"
   },
   {
+    "name": "longest-palindromic-substring",
+    "path": "src\\leetcode\\daily\\longest-palindromic-substring",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": true,
+    "source": "leetcode",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "medium",
+    "topics": [
+      "strings",
+      "dynamic-programming",
+      "two-pointers"
+    ],
+    "createdAt": "2026-01-03T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Longest Palindromic Substring",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/longest-palindromic-substring/",
+    "problemLink": "https://leetcode.com/problems/longest-palindromic-substring/description/"
+  },
+  {
     "name": "maximum-69-number",
     "path": "src\\leetcode\\daily\\maximum-69-number",
     "hasImplementation": true,
