@@ -2899,6 +2899,28 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
   },
   {
+    "name": "leap-year-calculator",
+    "path": "src\\freecodecamp\\daily\\january\\leap-year-calculator",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "calendar",
+      "date",
+      "math"
+    ],
+    "createdAt": "2026-01-04T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Leap Year Calculator",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/leap-year-calculator/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-04/"
+  },
+  {
     "name": "left-handed-seat-at-the-table",
     "path": "src\\freecodecamp\\daily\\january\\left-handed-seat-at-the-table",
     "hasImplementation": true,
