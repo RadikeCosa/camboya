@@ -3009,6 +3009,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-05/"
   },
   {
+    "name": "vowel-case",
+    "path": "src\\freecodecamp\\daily\\january\\vowel-case",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "string-manipulation",
+      "conditionals"
+    ],
+    "createdAt": "2026-01-06T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Vowel Case",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/vowel-case/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-06/"
+  },
+  {
     "name": "100-characters",
     "path": "src\\freecodecamp\\daily\\november\\100-characters",
     "hasImplementation": true,
