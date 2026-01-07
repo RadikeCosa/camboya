@@ -2944,6 +2944,29 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-03/"
   },
   {
+    "name": "markdown-unordered-list-parser",
+    "path": "src\\freecodecamp\\daily\\january\\markdown-unordered-list-parser",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "string",
+      "parsing",
+      "markdown",
+      "html"
+    ],
+    "createdAt": "2026-01-07T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Markdown Unordered List Parser",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/markdown-unordered-list-parser/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-07/"
+  },
+  {
     "name": "nth-fibonacci-number",
     "path": "src\\freecodecamp\\daily\\january\\nth-fibonacci-number",
     "hasImplementation": true,
