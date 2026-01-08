@@ -3010,6 +3010,27 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-01/"
   },
   {
+    "name": "sorted-array",
+    "path": "src\\freecodecamp\\daily\\january\\sorted-array",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freeCodeCamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "arrays",
+      "sorting"
+    ],
+    "createdAt": "2026-01-08T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Sorted Array",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/sorted-array/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-08/"
+  },
+  {
     "name": "tire-pressure",
     "path": "src\\freecodecamp\\daily\\january\\tire-pressure",
     "hasImplementation": true,
