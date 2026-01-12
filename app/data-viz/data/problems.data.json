@@ -2899,6 +2899,28 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2025-12-22/"
   },
   {
+    "name": "circular-prime",
+    "path": "src\\freecodecamp\\daily\\january\\circular-prime",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "medium",
+    "topics": [
+      "math",
+      "prime-numbers",
+      "number-theory"
+    ],
+    "createdAt": "2026-01-09T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Circular Prime",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/circular-prime/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-09/"
+  },
+  {
     "name": "leap-year-calculator",
     "path": "src\\freecodecamp\\daily\\january\\leap-year-calculator",
     "hasImplementation": true,
