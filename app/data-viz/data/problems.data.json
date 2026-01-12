@@ -3053,6 +3053,29 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-08/"
   },
   {
+    "name": "tic-tac-toe",
+    "path": "src\\freecodecamp\\daily\\january\\tic-tac-toe",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "medium",
+    "topics": [
+      "arrays",
+      "game",
+      "simulation",
+      "matrix"
+    ],
+    "createdAt": "2026-01-12T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Tic Tac Toe",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/tic-tac-toe/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-10/"
+  },
+  {
     "name": "tire-pressure",
     "path": "src\\freecodecamp\\daily\\january\\tire-pressure",
     "hasImplementation": true,
