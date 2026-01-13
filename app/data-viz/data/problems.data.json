@@ -3010,6 +3010,50 @@
     "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-02/"
   },
   {
+    "name": "par-for-the-hole",
+    "path": "src\\freecodecamp\\daily\\january\\par-for-the-hole",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "conditionals",
+      "simulation",
+      "math"
+    ],
+    "createdAt": "2026-01-12T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Par For The Hole",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/par-for-the-hole/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-11/"
+  },
+  {
+    "name": "plant-the-crop",
+    "path": "src\\freecodecamp\\daily\\january\\plant-the-crop",
+    "hasImplementation": true,
+    "hasTests": true,
+    "hasExplanation": true,
+    "hasPostSolution": false,
+    "source": "freecodecamp",
+    "series": "daily",
+    "category": "january",
+    "difficulty": "easy",
+    "topics": [
+      "math",
+      "simulation",
+      "mapping"
+    ],
+    "createdAt": "2026-01-12T00:00:00.000Z",
+    "hasFrontmatter": true,
+    "title": "Plant The Crop",
+    "blogLink": "https://blog-astro-rouge.vercel.app/posts/plant-the-crop/",
+    "problemLink": "https://www.freecodecamp.org/learn/daily-coding-challenge/2026-01-12/"
+  },
+  {
     "name": "resolution-streak",
     "path": "src\\freecodecamp\\daily\\january\\resolution-streak",
     "hasImplementation": true,
